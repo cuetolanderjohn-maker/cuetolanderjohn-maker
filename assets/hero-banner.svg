@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="280">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080d"/>
+      <stop offset="50%" stop-color="#0a0b12"/>
+      <stop offset="100%" stop-color="#05060a"/>
+    </linearGradient>
+    <linearGradient id="crimson-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef233c"/>
+      <stop offset="100%" stop-color="#ff3b5c"/>
+    </linearGradient>
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="soft-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .neon-crimson { fill: #ef233c; filter: url(#soft-glow); }
+    .neon-cyan { fill: #38bdf8; filter: url(#soft-glow); }
+    .dim-text { fill: rgba(226, 232, 240, 0.6); }
+    .bright-text { fill: #f8fafc; }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.85); }
+    }
+    .pulse {
+      animation: pulse-dot 2s infinite ease-in-out;
+      transform-origin: 32px 30px;
+    }
+
+    @keyframes scanline {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(280px); }
+    }
+    .scan-beam {
+      animation: scanline 6s linear infinite;
+      opacity: 0.15;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 0.85s infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="900" height="280" rx="12" fill="url(#bg-grad)" stroke="#232738" stroke-width="1.5"/>
+  <rect width="900" height="280" rx="12" fill="url(#grid)"/>
+
+  <!-- Scanning laser sweep -->
+  <line x1="0" y1="0" x2="900" y2="0" stroke="url(#cyan-grad)" stroke-width="2" class="scan-beam"/>
+
+  <!-- Tactical HUD Corner Accents -->
+  <!-- Top-Left -->
+  <path d="M 16 34 L 16 16 L 34 16" fill="none" stroke="#ef233c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Top-Right -->
+  <path d="M 884 34 L 884 16 L 866 16" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bottom-Left -->
+  <path d="M 16 246 L 16 264 L 34 264" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Bottom-Right -->
+  <path d="M 884 246 L 884 264 L 866 264" fill="none" stroke="#ef233c" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Top Status Bar -->
+  <circle cx="36" cy="32" r="4.5" fill="#10b981" class="pulse"/>
+  <text x="48" y="36" class="mono" font-size="11" font-weight="600" fill="#10b981" letter-spacing="1">SYSTEM: ONLINE</text>
+
+  <rect x="170" y="23" width="1" height="15" fill="rgba(255,255,255,0.15)"/>
+  
+  <text x="186" y="36" class="mono" font-size="11" fill="rgba(226, 232, 240, 0.7)" letter-spacing="1.2">
+    PROTOCOL: <tspan fill="#38bdf8">KULAS_TACTICAL_HUD</tspan> // LOC: <tspan fill="#f8fafc">PASIG CITY, PH</tspan>
+  </text>
+
+  <rect x="715" y="24" width="145" height="18" rx="4" fill="rgba(239, 35, 60, 0.12)" stroke="rgba(239, 35, 60, 0.35)" stroke-width="1"/>
+  <text x="787" y="36.5" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#ef233c" letter-spacing="1">
+    LATENCY: 0ms // 60 FPS
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="30" y1="52" x2="870" y2="52" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+  <!-- Main Center Headline -->
+  <g transform="translate(44, 114)">
+    <!-- Subtitle / Nickname Tag -->
+    <rect x="0" y="-48" width="68" height="20" rx="3" fill="#ef233c"/>
+    <text x="34" y="-34" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#0a0b12" letter-spacing="1">KULAS</text>
+
+    <!-- Main Name Title -->
+    <text x="80" y="-33" class="sans" font-size="20" font-weight="800" fill="#f8fafc" letter-spacing="2">
+      LANDER JOHN D. CUETO
+    </text>
+
+    <!-- Role Subheading Pill -->
+    <rect x="0" y="-18" width="310" height="24" rx="4" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+    <text x="12" y="-1" class="mono" font-size="11.5" font-weight="700" fill="#38bdf8" letter-spacing="1.5">
+      JUNIOR WEB &amp; GAME DEVELOPER
+    </text>
+
+    <text x="325" y="-1" class="mono" font-size="11" fill="rgba(226, 232, 240, 0.5)">
+      // BS COMPUTER ENGINEERING
+    </text>
+
+    <!-- Animated / Stylized Console Line -->
+    <rect x="0" y="18" width="812" height="42" rx="6" fill="rgba(0, 0, 0, 0.4)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+    
+    <text x="16" y="44" class="mono" font-size="12.5" fill="#f8fafc" letter-spacing="0.5">
+      <tspan fill="#ef233c" font-weight="700">&gt;</tspan> 
+      <tspan fill="#38bdf8">Tactile mechanics</tspan>, responsive cloud systems &amp; graph algorithms
+      <tspan fill="#ef233c" class="cursor">_</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Telemetry HUD Bar -->
+  <g transform="translate(44, 238)">
+    <line x1="-14" y1="-14" x2="826" y2="-14" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+
+    <!-- HP Bar -->
+    <text x="0" y="6" class="mono" font-size="10" font-weight="700" fill="#ef233c" letter-spacing="1">HP</text>
+    <rect x="24" y="-3" width="90" height="10" rx="2" fill="rgba(255, 255, 255, 0.06)"/>
+    <rect x="24" y="-3" width="90" height="10" rx="2" fill="url(#crimson-grad)"/>
+
+    <!-- MP Bar -->
+    <text x="135" y="6" class="mono" font-size="10" font-weight="700" fill="#38bdf8" letter-spacing="1">MP</text>
+    <rect x="160" y="-3" width="90" height="10" rx="2" fill="rgba(255, 255, 255, 0.06)"/>
+    <rect x="160" y="-3" width="90" height="10" rx="2" fill="url(#cyan-grad)"/>
+
+    <!-- Weaponry / Tool chips -->
+    <text x="280" y="6" class="mono" font-size="10.5" fill="rgba(226, 232, 240, 0.7)" letter-spacing="1">
+      EQUIPPED: <tspan fill="#f8fafc" font-weight="600">FIREBASE</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">JS</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">CANVAS</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">C++</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">PYTHON</tspan>
+    </text>
+
+    <!-- Mission Ready Tag -->
+    <text x="810" y="6" text-anchor="end" class="mono" font-size="10" font-weight="700" fill="#10b981" letter-spacing="1">
+      [ MISSION READY ]
+    </text>
+  </g>
+</svg>
