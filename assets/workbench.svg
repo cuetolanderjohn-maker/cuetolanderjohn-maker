@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="205" viewBox="0 0 1200 205" role="img" aria-labelledby="t d">
+<title id="t">What I work with</title><desc id="d">Three understated cards for cloud and web apps, arcade game engines, and algorithms / computer vision, on a graphite blueprint grid.</desc>
+<defs><pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#607F80" stroke-opacity=".11"/></pattern></defs>
+<rect width="1200" height="205" rx="11" fill="#182125"/><rect width="1200" height="205" rx="11" fill="url(#g)"/>
+<rect x=".8" y=".8" width="1198.4" height="203.4" rx="10" fill="none" stroke="#344B4C"/>
+<text x="30" y="37" font-family="Consolas,monospace" font-size="14" letter-spacing="1.9" fill="#A0B9B1">CURRENT SETUP</text>
+<text x="1170" y="37" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#728E90">PROFILE / KULAS?</text>
+<g>
+<rect x="28" y="56" width="362" height="123" rx="7" fill="#202C2E" stroke="#3C5655"/>
+<rect x="29" y="57" width="4" height="121" rx="2" fill="#DDA269"/>
+<text x="53" y="87" font-family="Consolas,monospace" font-size="13" fill="#DDA269">01 / BUILD</text>
+<text x="53" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#F0E7DA">Cloud &amp; Web</text>
+<text x="53" y="153" font-family="Consolas,monospace" font-size="14" fill="#9EB5AE">Firebase   JavaScript   HTML/CSS</text>
+</g>
+<g>
+<rect x="418" y="56" width="362" height="123" rx="7" fill="#202C2E" stroke="#3C5655"/>
+<rect x="419" y="57" width="4" height="121" rx="2" fill="#7FB8AD"/>
+<text x="443" y="87" font-family="Consolas,monospace" font-size="13" fill="#85C7BA">02 / DEVELOP</text>
+<text x="443" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#F0E7DA">Arcade Engines</text>
+<text x="443" y="153" font-family="Consolas,monospace" font-size="14" fill="#9EB5AE">HTML5 Canvas   Game Loops   Audio</text>
+</g>
+<g>
+<rect x="808" y="56" width="364" height="123" rx="7" fill="#202C2E" stroke="#3C5655"/>
+<rect x="809" y="57" width="4" height="121" rx="2" fill="#B4BAA1"/>
+<text x="833" y="87" font-family="Consolas,monospace" font-size="13" fill="#C1C8AF">03 / EXPLORE</text>
+<text x="833" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#F0E7DA">Algorithms &amp; CV</text>
+<text x="833" y="153" font-family="Consolas,monospace" font-size="14" fill="#9EB5AE">C++   Python   OpenCV   Dijkstra</text>
+</g>
+</svg>

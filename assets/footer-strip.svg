@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 105" width="1200" height="105" role="img" aria-labelledby="t">
+<title id="t">KULAS — End of file footer</title>
+<defs><pattern id="lines" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" stroke="#627E79" stroke-opacity=".09" fill="none"/></pattern></defs>
+<rect width="1200" height="105" rx="9" fill="#172124"/><rect width="1200" height="105" rx="9" fill="url(#lines)"/>
+<rect x=".75" y=".75" width="1198.5" height="103.5" rx="9" stroke="#3E5753" fill="none"/>
+<path d="M28 24v56M1172 24v56" stroke="#DDA269" stroke-width="2" opacity=".7"/>
+<text x="52" y="43" font-family="Consolas,monospace" fill="#8DB5AC" font-size="13" letter-spacing="2">KULAS?  /  END OF FILE</text>
+<text x="52" y="72" font-family="Segoe UI,Arial,sans-serif" fill="#ECE5D9" font-size="17">Thanks for stopping by. See you in the next commit.</text>
+<path d="M819 52h115l22-18h52l19 18h104" fill="none" stroke="#709D91" stroke-width="2" opacity=".6"/>
+<circle cx="934" cy="52" r="3.5" fill="#DDA269"/><circle cx="1008" cy="34" r="3.5" fill="#A5C8B7"/>
+<rect x="1114" y="63" width="12" height="12" fill="#DDA269"/><rect x="1133" y="63" width="12" height="12" fill="#557A73"/><rect x="1152" y="63" width="12" height="12" fill="#A2C0AA"/>
+</svg>
