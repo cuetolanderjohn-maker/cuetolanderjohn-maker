@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" width="100%" role="img" aria-labelledby="header-title header-desc">
+  <title id="header-title">Lander John Cueto — Software Engineer</title>
+  <desc id="header-desc">Specializing in Full-Stack Web Systems, Deterministic 2D Game Engines, and AI Automation Workflows.</desc>
+  
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="100%" stop-color="#070A0F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="1000" height="130" rx="10" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="999" height="129" rx="9.5" fill="none" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Left: Identity & Core Focus -->
+  <text x="36" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">
+    Lander John Cueto
+  </text>
+  <text x="36" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="400" fill="#94A3B8">
+    Full-Stack Web Systems &#8226; 2D Canvas Game Engines &#8226; AI Tooling &amp; Automation
+  </text>
+
+  <!-- Right: Location & Status -->
+  <text x="964" y="52" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="500" letter-spacing="1" fill="#64748B">
+    PASIG CITY, PHILIPPINES
+  </text>
+  <text x="964" y="82" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="500" fill="#38BDF8">
+    AVAILABLE FOR SELECT WORK
+  </text>
+
+  <!-- Subtle divider line -->
+  <line x1="36" y1="108" x2="964" y2="108" stroke="#1E293B" stroke-width="1" stroke-dasharray="4 4"/>
+</svg>
