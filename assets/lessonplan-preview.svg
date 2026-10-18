@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+<title id="t">Lesson Plan Maker — Automated DepEd MATATAG &amp; LCCP Studio</title>
+<desc id="d">A schematic diagram of the curriculum studio pipeline showing multimodal cloud vision parsing, offline OCR fallback, and automated Word DOCX generation.</desc>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#72918A" stroke-opacity=".085"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172225"/><stop offset="1" stop-color="#1F292B"/></linearGradient>
+</defs>
+<style>
+@keyframes flow{to{stroke-dashoffset:-36}}
+@keyframes pulseBadge{0%,100%{opacity:.7}50%{opacity:1}}
+.flow-line{stroke-dasharray:6 6;animation:flow 2.5s linear infinite}
+.pulse{animation:pulseBadge 2.2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.flow-line,.pulse{animation:none}}
+</style>
+<rect width="1200" height="300" rx="11" fill="url(#bg)"/><rect width="1200" height="300" rx="11" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="298" rx="10" fill="none" stroke="#44605A"/>
+<rect x="1" y="1" width="1198" height="37" rx="10" fill="#253233"/><path d="M0 38H1200" stroke="#405B56"/>
+<circle cx="23" cy="19" r="4" fill="#DDA269"/><circle cx="39" cy="19" r="4" fill="#80A79B"/><circle cx="55" cy="19" r="4" fill="#597A74"/>
+<text x="77" y="25" fill="#AFC7B9" font-family="Consolas,monospace" font-size="13">lesson-plan-maker / curriculum-pipeline</text>
+<text x="1175" y="25" fill="#859F97" text-anchor="end" font-family="Consolas,monospace" font-size="12">LIVE AT KATLESSONPLAN.NETLIFY.APP</text>
+
+<!-- Left Details Column -->
+<g>
+  <text x="35" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" letter-spacing="-1" fill="#EFE9DB">Lesson Plan Maker</text>
+  <text x="37" y="114" font-family="Consolas,monospace" font-size="13" fill="#C5A37E">DepEd MATATAG &amp; LCCP Studio</text>
+  <path d="M38 132H385" stroke="#567069" stroke-width="1"/>
+  <text x="38" y="159" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">• Multimodal AI Vision (Gemini + Nemotron)</text>
+  <text x="38" y="184" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">• Offline Tesseract.js OCR fail-safe engine</text>
+  <text x="38" y="209" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">• Word DOCX export with official crests</text>
+  <rect x="38" y="232" width="343" height="3" fill="#3A5651"/><rect x="38" y="232" width="145" height="3" fill="#C28C62"/>
+  <text x="38" y="266" font-family="Consolas,monospace" font-size="11" letter-spacing="1.1" fill="#8AA59B">PRODUCTION WEB APP</text>
+  <text x="210" y="266" font-family="Consolas,monospace" font-size="11" fill="#DDA269">katlessonplan.netlify.app</text>
+</g>
+
+<!-- Right Architecture Schematic -->
+<g>
+  <rect x="420" y="56" width="755" height="224" rx="8" fill="#141D1E" stroke="#4B6961" stroke-width="1.3"/>
+  <text x="440" y="78" font-family="Consolas,monospace" font-size="11.5" fill="#91BBAB">CURRICULUM INGESTION &amp; DOCX COMPILER PIPELINE</text>
+  <text x="1155" y="78" text-anchor="end" font-family="Consolas,monospace" font-size="10.5" fill="#D2A678">18 / 18 TESTS PASSING</text>
+
+  <!-- Step 1: Textbook Input & Client Compression -->
+  <rect x="445" y="105" width="195" height="145" rx="6" fill="#131B1C" stroke="#3D5954"/>
+  <rect x="445" y="105" width="195" height="26" rx="6" fill="#202D2E"/>
+  <text x="457" y="123" font-family="Consolas,monospace" font-size="11" fill="#A4C4B8">INPUT LAYER</text>
+  <text x="457" y="156" font-family="Segoe UI,sans-serif" font-size="14" font-weight="bold" fill="#F0E7DA">Textbook Capture</text>
+  <text x="457" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">Client Compression</text>
+  <text x="457" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">150KB Downsample</text>
+  <text x="457" y="230" font-family="Consolas,monospace" font-size="10.5" fill="#66877F">Zero Timeout Gate</text>
+
+  <!-- Flow 1 to 2 -->
+  <line x1="640" y1="177" x2="725" y2="177" stroke="#DDA269" stroke-width="2" class="flow-line"/>
+  <polygon points="725,173 733,177 725,181" fill="#DDA269"/>
+
+  <!-- Step 2: Vision & NLP Engine -->
+  <rect x="733" y="105" width="195" height="145" rx="6" fill="#131B1C" stroke="#3D5954"/>
+  <rect x="733" y="105" width="195" height="26" rx="6" fill="#202D2E"/>
+  <text x="745" y="123" font-family="Consolas,monospace" font-size="11" fill="#A4C4B8">AI VISION / OCR</text>
+  <text x="745" y="156" font-family="Segoe UI,sans-serif" font-size="14" font-weight="bold" fill="#F0E7DA">Multimodal Parser</text>
+  <text x="745" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#DDA269">Gemini / Nemotron</text>
+  <text x="745" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">Tesseract Fallback</text>
+  <text x="745" y="230" font-family="Consolas,monospace" font-size="10.5" fill="#7FA99B">Curriculum Extraction</text>
+
+  <!-- Flow 2 to 3 -->
+  <line x1="928" y1="177" x2="965" y2="177" stroke="#7FB9A7" stroke-width="2" class="flow-line"/>
+  <polygon points="965,173 973,177 965,181" fill="#7FB9A7"/>
+
+  <!-- Step 3: DOCX Compiler -->
+  <rect x="973" y="105" width="180" height="145" rx="6" fill="#131B1C" stroke="#3D5954"/>
+  <rect x="973" y="105" width="180" height="26" rx="6" fill="#202D2E"/>
+  <text x="985" y="123" font-family="Consolas,monospace" font-size="11" fill="#A4C4B8">DOCUMENT EXPORT</text>
+  <text x="985" y="156" font-family="Segoe UI,sans-serif" font-size="14" font-weight="bold" fill="#F0E7DA">DepEd DOCX</text>
+  <text x="985" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">MATATAG Annex AI</text>
+  <text x="985" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">LCCP Crest &amp; Banner</text>
+  <text x="985" y="230" font-family="Consolas,monospace" font-size="10.5" fill="#DDA269">Ready for Print / Edit</text>
+</g>
+</svg>

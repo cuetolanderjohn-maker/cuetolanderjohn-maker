@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+<title id="t">Video Edit Automation — Agentic Video &amp; Transcription Pipeline</title>
+<desc id="d">A schematic diagram of the automated video editor showing Groq Whisper audio transcription, dead-air removal, and GSAP motion graphics rendering.</desc>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#72918A" stroke-opacity=".085"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172225"/><stop offset="1" stop-color="#1F292B"/></linearGradient>
+</defs>
+<style>
+@keyframes waveFlow{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-40}}
+@keyframes captionPulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.05);opacity:1}}
+.waveform{stroke-dasharray:4 4;animation:waveFlow 2s linear infinite}
+.caption-tag{animation:captionPulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@media(prefers-reduced-motion:reduce){.waveform,.caption-tag{animation:none}}
+</style>
+<rect width="1200" height="300" rx="11" fill="url(#bg)"/><rect width="1200" height="300" rx="11" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="298" rx="10" fill="none" stroke="#44605A"/>
+<rect x="1" y="1" width="1198" height="37" rx="10" fill="#253233"/><path d="M0 38H1200" stroke="#405B56"/>
+<circle cx="23" cy="19" r="4" fill="#DDA269"/><circle cx="39" cy="19" r="4" fill="#80A79B"/><circle cx="55" cy="19" r="4" fill="#597A74"/>
+<text x="77" y="25" fill="#AFC7B9" font-family="Consolas,monospace" font-size="13">video-edit-automation / pipeline</text>
+<text x="1175" y="25" fill="#859F97" text-anchor="end" font-family="Consolas,monospace" font-size="12">GROQ WHISPER  /  HYPERFRAMES</text>
+
+<!-- Left Details Column -->
+<g>
+  <text x="35" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="750" letter-spacing="-1" fill="#EFE9DB">Video Automation</text>
+  <text x="37" y="114" font-family="Consolas,monospace" font-size="13" fill="#C5A37E">agentic video editing &amp; transcription</text>
+  <path d="M38 132H385" stroke="#567069" stroke-width="1"/>
+  <text x="38" y="159" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">• Automated cuts: pauses, breaths, retakes</text>
+  <text x="38" y="184" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">• Word-by-word captions via Groq Whisper</text>
+  <text x="38" y="209" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">• Dynamic zoom, color beds &amp; GSAP motion</text>
+  <rect x="38" y="232" width="343" height="3" fill="#3A5651"/><rect x="38" y="232" width="135" height="3" fill="#C28C62"/>
+  <text x="38" y="266" font-family="Consolas,monospace" font-size="11" letter-spacing="1.1" fill="#8AA59B">AGENT SKILL COMPATIBLE</text>
+  <text x="210" y="266" font-family="Consolas,monospace" font-size="11" fill="#DDA269">Claude, Antigravity, Codex</text>
+</g>
+
+<!-- Right Pipeline & Timeline View -->
+<g>
+  <rect x="420" y="56" width="755" height="224" rx="8" fill="#141D1E" stroke="#4B6961" stroke-width="1.3"/>
+  <text x="440" y="78" font-family="Consolas,monospace" font-size="11.5" fill="#91BBAB">TIMELINE ENGINE / MULTI-TRACK AUDIO &amp; VISUALS</text>
+  <text x="1155" y="78" text-anchor="end" font-family="Consolas,monospace" font-size="10.5" fill="#D2A678">9:16 VERTICAL &amp; 16:9 REELS</text>
+
+  <!-- Track 1: Audio Waveform & Speech Recognition -->
+  <rect x="445" y="98" width="540" height="42" rx="5" fill="#182325" stroke="#324944"/>
+  <text x="457" y="116" font-family="Consolas,monospace" font-size="10" fill="#7FA99B">AUDIO TRACK // GROQ WHISPER API</text>
+  <!-- Simulated Audio waveform bars -->
+  <path d="M 457 128 L 470 124 L 485 132 L 500 120 L 515 130 L 530 122 L 545 128 L 560 121 L 585 130 L 610 122 L 640 131 L 670 123 L 700 129 L 730 121 L 760 127 L 790 122 L 820 130 L 850 123 L 880 128 L 920 122 L 950 128" fill="none" stroke="#DDA269" stroke-width="2" class="waveform"/>
+  <!-- Cut Marker -->
+  <rect x="560" y="103" width="22" height="32" rx="3" fill="rgba(239, 35, 60, 0.2)" stroke="#EF233C" stroke-width="1"/>
+  <text x="571" y="123" text-anchor="middle" font-family="Consolas,monospace" font-size="8" fill="#FF6B7D">CUT</text>
+
+  <!-- Track 2: Visual Cut & Captions Track -->
+  <rect x="445" y="148" width="540" height="42" rx="5" fill="#182325" stroke="#324944"/>
+  <text x="457" y="165" font-family="Consolas,monospace" font-size="10" fill="#7FA99B">CAPTION STREAM // GSAP MOTIONS</text>
+  <!-- Word Pills -->
+  <rect x="457" y="171" width="54" height="15" rx="3" fill="#2E423E" stroke="#587E74"/>
+  <text x="484" y="182" text-anchor="middle" font-family="Consolas,monospace" font-size="9" fill="#E2EBE5">"Building"</text>
+
+  <rect x="517" y="171" width="46" height="15" rx="3" fill="#DDA269" class="caption-tag"/>
+  <text x="540" y="182" text-anchor="middle" font-family="Consolas,monospace" font-size="9" font-weight="bold" fill="#172225">"future"</text>
+
+  <rect x="569" y="171" width="58" height="15" rx="3" fill="#2E423E" stroke="#587E74"/>
+  <text x="598" y="182" text-anchor="middle" font-family="Consolas,monospace" font-size="9" fill="#E2EBE5">"software"</text>
+
+  <!-- Track 3: Final Output Status -->
+  <rect x="445" y="198" width="540" height="66" rx="5" fill="#131B1C" stroke="#324944"/>
+  <text x="457" y="218" font-family="Consolas,monospace" font-size="10" fill="#8AA59D">RENDER SUMMARY:</text>
+  <text x="457" y="238" font-family="Segoe UI,sans-serif" font-size="12" fill="#D4DFD8">1080x1920 MP4 &bull; 60 FPS H.264 &bull; In-Browser &amp; Agent Terminal Execution</text>
+  <text x="457" y="254" font-family="Consolas,monospace" font-size="10" fill="#DDA269">&gt; outbox/final-render.mp4 generated [SUCCESS]</text>
+
+  <!-- 9:16 Frame Preview Mockup on the right -->
+  <rect x="1005" y="98" width="148" height="166" rx="8" fill="#0C1213" stroke="#53776F" stroke-width="1.4"/>
+  <rect x="1013" y="106" width="132" height="150" rx="5" fill="#162224"/>
+  <!-- Video content graphic -->
+  <circle cx="1079" cy="155" r="24" fill="#36504A"/>
+  <path d="M 1060 215 C 1060 190 1098 190 1098 215" fill="#273C37"/>
+  <!-- Highlight pill inside vertical screen -->
+  <rect x="1042" y="210" width="74" height="14" rx="3" fill="#DDA269"/>
+  <text x="1079" y="221" text-anchor="middle" font-family="Consolas,monospace" font-size="8.5" font-weight="bold" fill="#101719">KEYWORD</text>
+</g>
+</svg>

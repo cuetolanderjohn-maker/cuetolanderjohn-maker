@@ -4,9 +4,10 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-42645F?style=flat-square&logo=typescript&logoColor=F0E8DC" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-171C1D?style=flat-square&logo=nextdotjs&logoColor=F0E8DC" alt="Next.js" />
   <img src="https://img.shields.io/badge/JavaScript-596E5F?style=flat-square&logo=javascript&logoColor=F0E8DC" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Firebase-C48D61?style=flat-square&logo=firebase&logoColor=171C1D" alt="Firebase" />
-  <img src="https://img.shields.io/badge/HTML5_%26_Canvas-42645F?style=flat-square&logo=html5&logoColor=F0E8DC" alt="HTML5 and Canvas" />
+  <img src="https://img.shields.io/badge/AI_Vision_%26_Groq-C48D61?style=flat-square&logoColor=171C1D" alt="AI Vision and Groq" />
   <img src="https://img.shields.io/badge/Game_Development-334B49?style=flat-square&logoColor=F0E8DC" alt="Game Development" />
   <img src="https://img.shields.io/badge/Computer_Engineering-637E77?style=flat-square&logoColor=F0E8DC" alt="Computer Engineering" />
   <img src="https://img.shields.io/badge/C%2B%2B-1E3634?style=flat-square&logo=c%2B%2B&logoColor=F0E8DC" alt="C++" />
@@ -14,31 +15,43 @@
 
 ## Hey, I'm Kulas
 
-I'm a **Computer Engineering** student at **ICCT Colleges**. On group projects and engineering teams, I'm usually the one working on the mechanics, wiring up the state machines, or building the responsive cloud backend.
+I'm a **Computer Engineering** student at **ICCT Colleges**. On group projects and engineering teams, I'm usually the one designing the architecture, connecting multimodal AI APIs and automated pipelines, or building responsive mechanics from scratch.
 
-I like making software and games that feel responsive and tactile. Right now I'm focused on **responsive cloud applications** alongside **retro 2D arcade engines** and exploring computer vision. When I'm not coding, there's a good chance I'm gaming or experimenting with a new game mechanic.
+I like building tools that solve immediate, practical problems and games that feel responsive and tactile. Right now I'm focused on **production AI curriculum software**, **agentic video automation**, alongside **retro 2D arcade engines**. When I'm not coding, there's a good chance I'm gaming or experimenting with a new project idea.
 
 ## My workbench
 
 <p align="center">
-  <img src="./assets/workbench.svg" width="100%" alt="Cloud web apps with Firebase and JS, arcade engines, and algorithms / computer vision" />
+  <img src="./assets/workbench.svg" width="100%" alt="Curriculum web apps with Next.js and Gemini Vision, video automation with Groq Whisper, and arcade engines" />
 </p>
 
-I've been spending time on cloud-hosted web apps with real-time state, deterministic 2D arcade loops, and figuring out how graph algorithms and computer vision can make software smarter.
+I've been spending time on full-stack AI web applications, automating media workflows with Groq Whisper and FFmpeg, and engineering deterministic 2D arcade loops.
 
 ## Projects
 
-### [EventEase — Event Management Web App](https://eventeasemnt.web.app/login)
+### [Lesson Plan Maker (LCCP Edition)](https://github.com/cuetolanderjohn-maker/lesson-plan-maker)
 
-I built and deployed **EventEase**, a cloud-hosted event management system featuring secure authentication, real-time database state synchronization, and dynamic scheduling.
+An automated curriculum architecture studio designed for educators at **La Consolacion College - Pasig**, transforming textbook photos into officially formatted lesson plans for **Kindergarten 2** and **Grade 1** matching DepEd MATATAG guidelines.
 
-It's built with **HTML5, CSS3, and vanilla JavaScript**, connected to **Firebase Auth and Firestore/Realtime Database**. No complex boilerplate—just clean DOM scripting, snappy client feedback, and real-time cloud data.
+It features **multimodal cloud vision (Google Gemini & Nemotron)**, an **offline Tesseract.js OCR fail-safe engine**, client-side smart compression, and automated export to official Microsoft Word (.docx) documents with institutional crests and banners.
 
 <p align="center">
-  <img src="./assets/eventease-preview.svg" width="100%" alt="Conceptual diagram of EventEase real-time database sync and authentication" />
+  <img src="./assets/lessonplan-preview.svg" width="100%" alt="Conceptual diagram of Lesson Plan Maker vision extraction and DOCX compiler pipeline" />
 </p>
 
-[Launch EventEase on the web](https://eventeasemnt.web.app/login)
+[Launch the live studio on Netlify](https://katlessonplan.netlify.app/) &bull; [Explore source code on GitHub](https://github.com/cuetolanderjohn-maker/lesson-plan-maker)
+
+### [Video Edit Automation — Agentic Video Editor](https://github.com/cuetolanderjohn-maker/Video-Edit-Automation)
+
+An automated personal video editor and transcription workflow powered by AI coding agents and **Groq Whisper**. You drop in raw footage and get back a cut, captioned edit with motion graphics, zoom-ins, and sound.
+
+Built on **Node.js, FFmpeg, HyperFrames, and GSAP**, it supports vertical 9:16 reels, word-by-word animated captions, automated dead-air removal, and persistent style rule learning.
+
+<p align="center">
+  <img src="./assets/video-automation-preview.svg" width="100%" alt="Schematic of Video Edit Automation timeline with Groq Whisper transcription and GSAP captions" />
+</p>
+
+[Explore Video Edit Automation on GitHub](https://github.com/cuetolanderjohn-maker/Video-Edit-Automation)
 
 ### [Thunderbolt Arcade // Pacman: Pokemon Edition](https://github.com/cuetolanderjohn-maker/Pacman-Pokemon-Edition)
 
@@ -49,6 +62,12 @@ A custom 2D arcade engine I built that fuses classic Pacman mechanics with a Pok
 </p>
 
 [View the project and source code](https://github.com/cuetolanderjohn-maker/Pacman-Pokemon-Edition)
+
+### [Lander's Interactive Cyber Portfolio](https://github.com/cuetolanderjohn-maker/landers-portfolio)
+
+My personal portfolio website featuring a dark anime noir interface, live particle shaders, playable arcade mini-games, and modular quest logs.
+
+[Explore the live portfolio](https://cuetolanderjohn-maker.github.io/landers-portfolio/) &bull; [View source code on GitHub](https://github.com/cuetolanderjohn-maker/landers-portfolio)
 
 ### [CPU Scheduler Simulation](https://github.com/cuetolanderjohn-maker/cpu-scheduler-simulation)
 
