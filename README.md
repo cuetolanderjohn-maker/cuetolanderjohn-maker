@@ -11,17 +11,21 @@
   <img src="https://img.shields.io/badge/AI_Vision_%26_Groq-f97316?style=flat-square&logoColor=0a0b12" alt="AI Vision & Groq" />
   <img src="https://img.shields.io/badge/Game_Development-ef233c?style=flat-square&logoColor=f8fafc" alt="Game Development" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=f8fafc" alt="C++" />
-  <img src="https://img.shields.io/badge/Computer_Engineering-6366f1?style=flat-square&logoColor=f8fafc" alt="Computer Engineering" />
+  <img src="https://img.shields.io/badge/AI_Automation_%26_Tools-6366f1?style=flat-square&logoColor=f8fafc" alt="AI Automation & Tools" />
 </p>
 
 ## Hey, I'm Kulas
 
-I'm a **Junior Web & Game Developer** based in Pasig City, Philippines, currently pursuing a **B.S. in Computer Engineering** at **ICCT Colleges**.
+I'm a **Web Developer, Game Developer, and AI Tool Specialist** based in Pasig City, Philippines.
 
-My work focuses on the intersection of **responsive cloud engineering** and **tactile gameplay design**. On engineering teams and projects, I build the full loop—from secure authentication, dynamic scheduling, and real-time cloud database synchronization to 60 FPS deterministic 2D arcade engines where every frame of input latency counts.
+I specialize in building **production web applications**, **responsive 2D browser games**, and **maximizing cutting-edge AI tools** to solve practical, real-world challenges. My expertise centers around:
 
-* 🌐 **Explore my full interactive cyber portfolio:** [cuetolanderjohn-maker.github.io/landers-portfolio](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
-* ⚡ **Core Philosophy:** Clean OOP architecture, responsive state machines, and punchy player feedback loops.
+* 🌐 **Full-Stack Web Development:** Architecting cloud systems with secure authentication, real-time database synchronization, and dynamic scheduling (like **EventEase**).
+* 🎮 **Interactive Game Development:** Engineering frame-perfect 60 FPS canvas game loops, deterministic tile collisions, and punchy player feedback where every frame of input latency counts.
+* 🤖 **Maximizing AI & Automation Tools:** Building end-to-end multimodal AI pipelines—integrating Google Gemini Vision, Groq Whisper transcription, and local OCR engines to automate complex workflows (like **Lesson Plan Maker** and **Video Edit Automation**).
+
+* 🌐 **Explore my interactive cyber portfolio:** [cuetolanderjohn-maker.github.io/landers-portfolio](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
+* ⚡ **Core Philosophy:** Clean architecture, responsive state machines, and shipping tactile software that works.
 
 ## My workbench
 
