@@ -1,35 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="205" viewBox="0 0 1200 205" role="img" aria-labelledby="t d">
-<title id="t">Equipped Combat Toolkit &amp; Disciplines</title>
-<desc id="d">Three technical cards for cloud web systems, 2D arcade engines, and AI algorithms / computer vision on an ink-black grid.</desc>
-<defs>
-  <pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#38bdf8" stroke-opacity=".08"/></pattern>
-</defs>
-<rect width="1200" height="205" rx="11" fill="#0a0b12"/><rect width="1200" height="205" rx="11" fill="url(#g)"/>
-<rect x=".8" y=".8" width="1198.4" height="203.4" rx="10" fill="none" stroke="#232738"/>
-<text x="30" y="37" font-family="Consolas,monospace" font-size="13.5" letter-spacing="1.5" font-weight="bold" fill="#38bdf8">[ COMBAT TOOLKIT // EQUIPPED SLOTS ]</text>
-<text x="1170" y="37" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#64748b">LOC: PASIG CITY, PH // WEB &#8226; GAMES &#8226; AI TOOLS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="t d">
+<title id="t">Technical Competencies and Stack</title>
+<desc id="d">Three minimalist engineering cards for full-stack cloud, game development, and AI systems.</desc>
+<rect width="1200" height="180" rx="10" fill="#090A0F"/>
+<rect x=".75" y=".75" width="1198.5" height="178.5" rx="9.25" fill="none" stroke="#1E2330"/>
 
-<g>
-  <rect x="28" y="56" width="362" height="123" rx="7" fill="#10121a" stroke="#232738"/>
-  <rect x="29" y="57" width="4" height="121" rx="2" fill="#38bdf8"/>
-  <text x="53" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#38bdf8">01 / CLOUD &amp; WEB</text>
-  <text x="53" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">EventEase &amp; Web</text>
-  <text x="53" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Firebase &#8226; Realtime DB &#8226; Next.js</text>
-</g>
+<text x="32" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11.5" letter-spacing="1" font-weight="600" fill="#64748B">CORE ENGINEERING FOCUS</text>
+<text x="1168" y="34" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" fill="#475569">PRODUCTION ARCHITECTURE</text>
 
-<g>
-  <rect x="418" y="56" width="362" height="123" rx="7" fill="#10121a" stroke="#232738"/>
-  <rect x="419" y="57" width="4" height="121" rx="2" fill="#ef233c"/>
-  <text x="443" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#ef233c">02 / GAME ENGINES</text>
-  <text x="443" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">Arcade &amp; Physics</text>
-  <text x="443" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Canvas 2D &#8226; Game Loops &#8226; Audio</text>
-</g>
+<!-- 3 Balanced Cards -->
+<g transform="translate(32, 52)">
+  <!-- Card 1 -->
+  <rect x="0" y="0" width="362" height="106" rx="6" fill="#0F131C" stroke="#1E2638" stroke-width="1"/>
+  <rect x="0" y="0" width="3" height="106" rx="1.5" fill="#38BDF8"/>
+  <text x="24" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing=".5">CLOUD &amp; FULL-STACK</text>
+  <text x="24" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="19" font-weight="700" fill="#F8FAFC">Event Management Systems</text>
+  <text x="24" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#94A3B8">Next.js • TypeScript • Firebase Firestore</text>
 
-<g>
-  <rect x="808" y="56" width="364" height="123" rx="7" fill="#10121a" stroke="#232738"/>
-  <rect x="809" y="57" width="4" height="121" rx="2" fill="#6366f1"/>
-  <text x="833" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#818cf8">03 / AI &amp; SYSTEMS</text>
-  <text x="833" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">Vision &amp; Logic</text>
-  <text x="833" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Gemini Vision &#8226; OpenCV &#8226; C++</text>
+  <!-- Card 2 -->
+  <rect x="386" y="0" width="362" height="106" rx="6" fill="#0F131C" stroke="#1E2638" stroke-width="1"/>
+  <rect x="386" y="0" width="3" height="106" rx="1.5" fill="#EF4444"/>
+  <text x="410" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#EF4444" letter-spacing=".5">GAME DEV &amp; GRAPHICS</text>
+  <text x="410" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="19" font-weight="700" fill="#F8FAFC">Deterministic 2D Engines</text>
+  <text x="410" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#94A3B8">Canvas 2D • Collision Logic • Web Audio</text>
+
+  <!-- Card 3 -->
+  <rect x="772" y="0" width="364" height="106" rx="6" fill="#0F131C" stroke="#1E2638" stroke-width="1"/>
+  <rect x="772" y="0" width="3" height="106" rx="1.5" fill="#818CF8"/>
+  <text x="796" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#818CF8" letter-spacing=".5">APPLIED AI &amp; SYSTEMS</text>
+  <text x="796" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="19" font-weight="700" fill="#F8FAFC">Multimodal Agent Pipelines</text>
+  <text x="796" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#94A3B8">Gemini Vision • Groq Whisper • OpenCV • C++</text>
 </g>
 </svg>

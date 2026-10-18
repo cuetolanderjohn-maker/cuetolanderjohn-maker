@@ -1,96 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-labelledby="t d">
-<title id="t">KULAS // Lander John D. Cueto — Developer Profile</title>
-<desc id="d">A cinematic ink-black, crimson red and sky ice blue profile banner with a tactical cyber grid and code telemetry window.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-labelledby="t d">
+<title id="t">Lander John Cueto — Engineering Portfolio</title>
+<desc id="d">Minimalist, editorial dark theme banner with typography and technical stack telemetry.</desc>
 <defs>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#38bdf8" stroke-width=".7" opacity=".08"/></pattern>
-  <pattern id="noise" width="57" height="43" patternUnits="userSpaceOnUse"><circle cx="6" cy="15" r=".7" fill="#ef233c" opacity=".18"/><circle cx="42" cy="37" r=".65" fill="#38bdf8" opacity=".2"/><circle cx="27" cy="8" r=".6" fill="#ffffff" opacity=".1"/></pattern>
-  <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08090e"/><stop offset=".6" stop-color="#0a0b12"/><stop offset="1" stop-color="#050608"/></linearGradient>
-  <linearGradient id="rule"><stop stop-color="#ef233c"/><stop offset=".6" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".15"/></linearGradient>
-  <linearGradient id="cyan-glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+  <radialGradient id="ambient" cx="80%" cy="20%" r="60%">
+    <stop offset="0%" stop-color="#1E293B" stop-opacity=".45"/>
+    <stop offset="100%" stop-color="#090A0F" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="card-border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2D3748"/>
+    <stop offset="100%" stop-color="#1A202C"/>
+  </linearGradient>
 </defs>
 <style>
-@keyframes caret{0%,49%{opacity:1}50%,100%{opacity:0}}
-@keyframes progress{0%{transform:translateX(-115px)}100%{transform:translateX(365px)}}
-@keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.85)}}
-.caret{animation:caret 1.4s steps(1) infinite}
-.scan{animation:progress 8s linear infinite}
-.pulse{animation:pulseDot 2s ease-in-out infinite}
-@media(prefers-reduced-motion:reduce){.caret,.scan,.pulse{animation:none}}
+@keyframes pulseDot{0%,100%{opacity:1}50%{opacity:.4}}
+.pulse{animation:pulseDot 2.4s ease-in-out infinite}
 </style>
-<!-- Background Layers -->
-<rect width="1200" height="350" rx="14" fill="url(#shade)"/>
-<rect width="1200" height="350" rx="14" fill="url(#grid)"/>
-<rect width="1200" height="350" rx="14" fill="url(#noise)"/>
-<path d="M0 334H1200" stroke="#ef233c" stroke-width="2"/>
+<rect width="1200" height="280" rx="12" fill="#090A0F"/>
+<rect width="1200" height="280" rx="12" fill="url(#ambient)"/>
+<rect x=".75" y=".75" width="1198.5" height="278.5" rx="11.25" fill="none" stroke="#1E2330"/>
 
-<!-- Corner HUD Brackets -->
-<path d="M30 30h54M30 30v43M1170 30h-54M1170 30v43M30 320h54M30 320v-25M1170 320h-54M1170 320v-25" stroke="#38bdf8" fill="none" stroke-width="1.6" opacity=".65"/>
+<!-- Left Editorial Stack -->
+<g transform="translate(64, 48)">
+  <!-- Status Indicator Pill -->
+  <rect x="0" y="0" width="232" height="26" rx="13" fill="#111520" stroke="#222B3D" stroke-width="1"/>
+  <circle cx="14" cy="13" r="3.5" fill="#10B981" class="pulse"/>
+  <text x="26" y="17" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing=".4">ACTIVE • PASIG CITY, PHILIPPINES</text>
 
-<!-- Circuit Trace Lines -->
-<g fill="none" stroke="#ef233c" stroke-opacity=".3">
-  <path d="M0 86h74l28 22h96"/><path d="M0 109h42l20 15h99"/><path d="M1160 270h-64l-37 30h-79"/>
-</g>
-<g fill="#ef233c"><circle cx="102" cy="108" r="3"/><circle cx="1059" cy="300" r="3"/></g>
-
-<!-- Left Identity Section -->
-<g transform="translate(68, 0)">
-  <rect x="6" y="52" width="168" height="20" rx="3" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
-  <circle cx="16" cy="62" r="3.5" fill="#10b981" class="pulse"/>
-  <text x="26" y="66" font-family="Consolas,Menlo,monospace" letter-spacing="1.5" font-size="11.5" font-weight="bold" fill="#38bdf8">SYSTEM: ONLINE // 001</text>
-
-  <!-- Big Name -->
-  <text x="0" y="152" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="82" letter-spacing="-2" fill="#f8fafc">
-    KULAS<tspan fill="#ef233c">.</tspan>
+  <!-- Name -->
+  <text x="0" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-weight="800" font-size="52" letter-spacing="-1.8" fill="#F8FAFC">
+    Lander John Cueto
   </text>
-  <text x="286" y="148" font-family="Consolas,monospace" font-size="14" fill="rgba(226, 232, 240, 0.6)">// LANDER JOHN D. CUETO</text>
+  <text x="495" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16" font-weight="500" fill="#64748B">/ kulas</text>
 
-  <!-- Horizontal Glow Bar -->
-  <rect x="5" y="168" width="410" height="3.5" fill="#1e2230"/><rect x="5" y="168" width="180" height="3.5" fill="url(#rule)"/>
-
-  <!-- Tagline -->
-  <text x="5" y="212" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="600" fill="#e2e8f0">
-    Junior Web &amp; Game Developer
+  <!-- Title & Philosophy -->
+  <text x="0" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-size="20" font-weight="500" fill="#94A3B8" letter-spacing="-.3">
+    Web Applications • 2D Canvas Game Engines • Multimodal AI Pipelines
   </text>
-  <text x="5" y="246" font-family="Consolas,Menlo,monospace" font-size="14.5" fill="#38bdf8">
-    EVENT MANAGEMENT  <tspan fill="#ef233c">&#8226;</tspan>  ARCADE ENGINES  <tspan fill="#ef233c">&#8226;</tspan>  AI VISION
+  <text x="0" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#64748B">
+    Architecture focused on deterministic frame loops, real-time sync, and intelligent agent workflows.
   </text>
-
-  <!-- Location & Skills Tag -->
-  <text x="5" y="280" font-family="Consolas,monospace" font-size="12.5" fill="rgba(226, 232, 240, 0.65)">
-    PASIG CITY, PHILIPPINES // WEB APPS &#8226; 2D BROWSER GAMES &#8226; AI AUTOMATION
-  </text>
-
-  <!-- Scanline Underline -->
-  <path d="M5 306H480" stroke="#232738" stroke-width="1"/>
-  <rect class="scan" x="5" y="305" width="110" height="2" rx="1" fill="#ef233c" opacity=".6"/>
 </g>
 
-<!-- Right Telemetry Terminal Window -->
-<g>
-  <rect x="714" y="52" width="436" height="252" rx="9" fill="#0d0f17" stroke="#232738" stroke-width="1.5"/>
-  <rect x="715" y="53" width="434" height="34" rx="8" fill="#141824"/>
-  <path d="M715 87h434" stroke="#232738" stroke-width="1"/>
-  <circle cx="735" cy="70" r="4.5" fill="#ef233c"/>
-  <circle cx="752" cy="70" r="4.5" fill="#f97316"/>
-  <circle cx="769" cy="70" r="4.5" fill="#38bdf8"/>
-  <text x="932" y="74" font-family="Consolas,Menlo,monospace" font-size="11.5" fill="#94a3b8" text-anchor="middle">mission / current-dossier.txt</text>
+<!-- Right Minimalist Telemetry Card -->
+<g transform="translate(820, 48)">
+  <rect width="316" height="184" rx="8" fill="#0E121A" stroke="url(#card-border)" stroke-width="1"/>
+  
+  <rect x="0" y="0" width="316" height="34" rx="8" fill="#141A26"/>
+  <text x="16" y="22" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="600" fill="#64748B" letter-spacing=".8">SYSTEM BENCHMARKS</text>
 
-  <g font-family="Consolas,Menlo,monospace" font-size="14.5">
-    <text x="738" y="122" fill="#475569">01</text>
-    <text x="772" y="122" fill="#94a3b8">class    = <tspan fill="#38bdf8">"Web &amp; Game Developer"</tspan></text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">
+    <text x="16" y="64" fill="#64748B">Input Latency</text>
+    <text x="300" y="64" text-anchor="end" font-weight="700" fill="#38BDF8">0 ms • 60 FPS</text>
 
-    <text x="738" y="156" fill="#475569">02</text>
-    <text x="772" y="156" fill="#94a3b8">flagship = <tspan fill="#ef233c">"EventEase Cloud App"</tspan></text>
+    <text x="16" y="96" fill="#64748B">Cloud State</text>
+    <text x="300" y="96" text-anchor="end" font-weight="700" fill="#38BDF8">Firestore Real-time</text>
 
-    <text x="738" y="190" fill="#475569">03</text>
-    <text x="772" y="190" fill="#94a3b8">engine   = <tspan fill="#f97316">"Thunderbolt 2D Arcade"</tspan></text>
+    <text x="16" y="128" fill="#64748B">Vision Pipeline</text>
+    <text x="300" y="128" text-anchor="end" font-weight="700" fill="#E2E8F0">Gemini • Tesseract</text>
 
-    <text x="738" y="224" fill="#475569">04</text>
-    <text x="772" y="224" fill="#94a3b8">studio   = <tspan fill="#38bdf8">"Lesson Plan AI Vision"</tspan></text>
-
-    <text x="738" y="264" fill="#475569">05</text>
-    <text x="772" y="264" fill="#f8fafc">&gt; every frame of latency counts</text>
+    <text x="16" y="160" fill="#64748B">Core Language</text>
+    <text x="300" y="160" text-anchor="end" font-weight="700" fill="#E2E8F0">TypeScript • C++</text>
   </g>
-  <rect class="caret" x="1036" y="251" width="8" height="16" fill="#ef233c"/>
 </g>
 </svg>

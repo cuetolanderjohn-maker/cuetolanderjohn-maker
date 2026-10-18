@@ -1,136 +1,123 @@
-<!-- Profile README | KULAS // Lander John D. Cueto (@cuetolanderjohn-maker) -->
+<!-- Profile README | Lander John Cueto (@cuetolanderjohn-maker) -->
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="KULAS // Lander John D. Cueto — Developer Profile" />
+  <img src="./assets/hero.svg" width="100%" alt="Lander John Cueto — Engineering Portfolio" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Firebase-38bdf8?style=flat-square&logo=firebase&logoColor=0a0b12" alt="Firebase" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0a0b12" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Next.js-0a0b12?style=flat-square&logo=nextdotjs&logoColor=f8fafc" alt="Next.js" />
-  <img src="https://img.shields.io/badge/HTML5_%26_Canvas-ef233c?style=flat-square&logo=html5&logoColor=f8fafc" alt="HTML5 & Canvas" />
-  <img src="https://img.shields.io/badge/AI_Vision_%26_Groq-f97316?style=flat-square&logoColor=0a0b12" alt="AI Vision & Groq" />
-  <img src="https://img.shields.io/badge/Game_Development-ef233c?style=flat-square&logoColor=f8fafc" alt="Game Development" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=f8fafc" alt="C++" />
-  <img src="https://img.shields.io/badge/AI_Automation_%26_Tools-6366f1?style=flat-square&logoColor=f8fafc" alt="AI Automation & Tools" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5 Canvas" />
+  <img src="https://img.shields.io/badge/AI_Vision_%26_Whisper-0284C7?style=flat-square&logoColor=white" alt="AI Vision and Whisper" />
+  <img src="https://img.shields.io/badge/Game_Physics-DC2626?style=flat-square&logoColor=white" alt="Game Physics" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
 </p>
 
-## Hey, I'm Kulas
+## Overview
 
-I'm a **Web Developer, Game Developer, and AI Tool Specialist** based in Pasig City, Philippines.
+I am a software engineer and game developer based in Pasig City, Philippines.
 
-I specialize in building **production web applications**, **responsive 2D browser games**, and **maximizing cutting-edge AI tools** to solve practical, real-world challenges. My expertise centers around:
+I build production-grade web systems, deterministic 2D browser games, and applied AI automation pipelines. My focus centers on architecture: writing high-throughput, low-latency interfaces, integrating multimodal foundation models into reliable user workflows, and developing frame-perfect 60 FPS canvas engines.
 
-* 🌐 **Full-Stack Web Development:** Architecting cloud systems with secure authentication, real-time database synchronization, and dynamic scheduling (like **EventEase**).
-* 🎮 **Interactive Game Development:** Engineering frame-perfect 60 FPS canvas game loops, deterministic tile collisions, and punchy player feedback where every frame of input latency counts.
-* 🤖 **Maximizing AI & Automation Tools:** Building end-to-end multimodal AI pipelines—integrating Google Gemini Vision, Groq Whisper transcription, and local OCR engines to automate complex workflows (like **Lesson Plan Maker** and **Video Edit Automation**).
+* **Portfolio Website:** [cuetolanderjohn-maker.github.io/landers-portfolio](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
+* **Specialization:** Real-Time Cloud Architectures, 2D Deterministic Physics, Multimodal Vision, and Speech Workflows.
 
-* 🌐 **Explore my interactive cyber portfolio:** [cuetolanderjohn-maker.github.io/landers-portfolio](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
-* ⚡ **Core Philosophy:** Clean architecture, responsive state machines, and shipping tactile software that works.
-
-## My workbench
+## Core Disciplines
 
 <p align="center">
-  <img src="./assets/workbench.svg" width="100%" alt="Equipped Combat Toolkit: Cloud Web Systems, Arcade Engines, and AI Vision" />
+  <img src="./assets/workbench.svg" width="100%" alt="Core Engineering Disciplines" />
 </p>
-
-I spend my time engineering production cloud applications with real-time state, developing responsive 2D arcade physics, and building automated pipelines with multimodal vision and speech models.
 
 ---
 
-## Featured Operations
+## Flagship Systems
 
-### [EventEase — Cloud Event Management Web App](https://eventeasemnt.web.app/login)
+### [EventEase — Cloud-Hosted Event Management Platform](https://eventeasemnt.web.app/login)
 
-> *"Building cloud-hosted event management systems with secure authentication, real-time updates, and responsive UI."*
+A cloud-hosted event management platform engineered for high-responsiveness and immediate data consistency. The application features user authentication, role-based authorization, a dynamic calendar scheduling engine, and direct client-side state synchronization backed by Google Cloud Firestore.
 
-**EventEase** is a production cloud-hosted event management system engineered for seamless attendee booking and dynamic scheduling. It connects a responsive front-end interface directly to **Firebase Authentication** and **Cloud Firestore Real-Time Database** with zero unnecessary bloat.
-
-* **Key Architecture:** Multi-role user authentication, real-time database listener updates, dynamic calendar scheduling matrix, and snappy DOM scripting.
-* **Stack:** `Firebase` &bull; `JavaScript (ES6+)` &bull; `HTML5` &bull; `CSS3` &bull; `Cloud Firestore` &bull; `DOM Scripting`
+* **Architecture:** Real-time collection listeners, optimistic UI updates, multi-tenant session validation, and zero-dependency DOM event scripting.
+* **Stack:** Firebase Auth, Cloud Firestore, JavaScript (ES6+), HTML5, CSS3.
 
 <p align="center">
   <img src="./assets/eventease-preview.svg" width="100%" alt="EventEase architecture schematic: Client browser, Firebase Auth, and Firestore real-time sync" />
 </p>
 
-[🌐 **Launch Live EventEase App**](https://eventeasemnt.web.app/login) &bull; [View Documentation & Specs](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
+[Launch Live EventEase Application](https://eventeasemnt.web.app/login) &bull; [Documentation & Specs](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
 
 ---
 
-### [Lesson Plan Maker (LCCP Edition)](https://github.com/cuetolanderjohn-maker/lesson-plan-maker)
+### [Lesson Plan Maker — DepEd MATATAG Curriculum Studio](https://github.com/cuetolanderjohn-maker/lesson-plan-maker)
 
-An automated curriculum architecture studio designed specifically for educators at **La Consolacion College - Pasig**, transforming textbook photos into officially formatted lesson plans for **Kindergarten 2** and **Grade 1** matching DepEd MATATAG guidelines.
+An automated curriculum architecture application designed for faculty at La Consolacion College - Pasig. The studio converts raw textbook photography into officially standardized lesson plans for Kindergarten 2 and Grade 1, adhering strictly to DepEd Order No. 3 s. 2026 guidelines.
 
-* **Key Architecture:** Multimodal AI Vision (Google Gemini & Nemotron), fail-safe offline Tesseract.js OCR engine, client-side photo downsampling, and automated export to official Microsoft Word (.docx) documents with institutional crests and banners.
-* **Stack:** `Next.js 15` &bull; `TypeScript` &bull; `Tailwind CSS` &bull; `Google Gemini Vision` &bull; `Tesseract.js` &bull; `Docx.js`
+* **Architecture:** Multimodal vision parsing with Google Gemini and Nemotron, automated client-side image downsampling to prevent upload timeouts, local Tesseract.js OCR fallback, and structured Word (.docx) table compilation.
+* **Stack:** Next.js 15, TypeScript, Tailwind CSS, Google Gemini Vision, Tesseract.js, Docx.js.
 
 <p align="center">
   <img src="./assets/lessonplan-preview.svg" width="100%" alt="Lesson Plan Maker curriculum pipeline schematic" />
 </p>
 
-[🚀 **Launch Live Studio on Netlify**](https://katlessonplan.netlify.app/) &bull; [Explore Source Code on GitHub](https://github.com/cuetolanderjohn-maker/lesson-plan-maker)
+[Launch Studio on Netlify](https://katlessonplan.netlify.app/) &bull; [Source Code Repository](https://github.com/cuetolanderjohn-maker/lesson-plan-maker)
 
 ---
 
-### [Thunderbolt Arcade // Pacman: Pokemon Edition](https://github.com/cuetolanderjohn-maker/Pacman-Pokemon-Edition)
+### [Thunderbolt Arcade — Deterministic 2D Game Engine](https://github.com/cuetolanderjohn-maker/Pacman-Pokemon-Edition)
 
-> *"Every frame of input latency counts. Mechanics must feel punchy, responsive, and deterministic."*
+A custom 2D arcade engine fusing classic maze mechanics with a Pokémon universe theme. Built to demonstrate deterministic loop scheduling, the engine maintains exact 60 FPS frame ticks, grid-aligned bounding box collision resolution, and state-machine powerup transitions.
 
-A custom 2D arcade engine that fuses classic Pacman mechanics with a Pokémon universe theme. It features a **deterministic tile-based collision loop**, electric power-pellet state machines, sprite animations, and procedural retro sound effects without external libraries.
-
-* **Key Architecture:** Frame-perfect 60 FPS update ticks, grid-aligned bounding box collision logic, ghost pursuit vectors, and Web Audio API synthesis.
-* **Stack:** `JavaScript` &bull; `HTML5 Canvas 2D` &bull; `Web Audio API` &bull; `State Machines` &bull; `Sprite Rendering`
+* **Architecture:** Fixed-timestep game loop, sprite-sheet rasterization, pursuit vectors, and procedural audio synthesis via the Web Audio API.
+* **Stack:** JavaScript (ES6+), HTML5 Canvas 2D, Web Audio API, Finite State Machines.
 
 <p align="center">
   <img src="./assets/arcade-preview.svg" width="100%" alt="Thunderbolt Arcade engine schematic showing deterministic tile traversal and 60 FPS loop" />
 </p>
 
-[🎮 **View Source Code on GitHub**](https://github.com/cuetolanderjohn-maker/Pacman-Pokemon-Edition) &bull; [Play Live on Portfolio](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
+[View Engine Repository](https://github.com/cuetolanderjohn-maker/Pacman-Pokemon-Edition) &bull; [Play in Browser](https://cuetolanderjohn-maker.github.io/landers-portfolio/)
 
 ---
 
-### [Video Edit Automation — Agentic Video Editor](https://github.com/cuetolanderjohn-maker/Video-Edit-Automation)
+### [Video Edit Automation — Agentic Media Pipeline](https://github.com/cuetolanderjohn-maker/Video-Edit-Automation)
 
-An automated personal video editor and transcription workflow powered by AI coding agents and **Groq Whisper**. Drop in raw footage and get back a cut, captioned edit with motion graphics, zoom-ins, and sound.
+An automated media processing pipeline designed to integrate directly with AI coding agents. The engine takes raw spoken-word footage and outputs a fully cut, captioned vertical video with motion graphics, silence stripping, and speaker tracking.
 
-* **Key Architecture:** Automated dead-air and pause cuts, word-by-word animated captions, 9:16 vertical framing, and persistent style learning.
-* **Stack:** `Node.js` &bull; `Groq Whisper API` &bull; `FFmpeg` &bull; `HyperFrames` &bull; `GSAP`
+* **Architecture:** Automated silence and breath boundary detection, word-level audio alignment via the Groq Whisper API, and programmatic canvas rendering.
+* **Stack:** Node.js, Groq Whisper API, FFmpeg, HyperFrames, GSAP.
 
 <p align="center">
-  <img src="./assets/video-automation-preview.svg" width="100%" alt="Video Edit Automation timeline schematic" />
+  <img src="./assets/video-automation-preview.svg" width="100%" alt="Video Edit Automation pipeline schematic: Ingest, Groq Whisper transcription, and GSAP motion compiler" />
 </p>
 
-[🎬 **Explore Video Edit Automation on GitHub**](https://github.com/cuetolanderjohn-maker/Video-Edit-Automation)
+[View Pipeline Repository](https://github.com/cuetolanderjohn-maker/Video-Edit-Automation)
 
 ---
 
-### Additional Systems & Engineering Showcases
+## Supporting Systems
 
-* **[Lander's Interactive Cyber Portfolio](https://github.com/cuetolanderjohn-maker/landers-portfolio):** Anime noir web interface with live particle shaders, playable arcade engines, and modular quest logs. [Live Site](https://cuetolanderjohn-maker.github.io/landers-portfolio/).
-* **[CPU Scheduler Simulation](https://github.com/cuetolanderjohn-maker/cpu-scheduler-simulation):** Algorithmic simulation of operating system process scheduling (FCFS, SJF, Priority, Round Robin) in `C++` and `Python`.
-* **[Vision & Gesture Lab](https://github.com/cuetolanderjohn-maker/Dancing-Cat-using-5-pin-points):** Real-time computer vision gesture recognition utilizing YCrCb skin segmentation, Haar face suppression, and fingertip convex hull defects in `OpenCV`.
+* **[Interactive Engineering Portfolio](https://github.com/cuetolanderjohn-maker/landers-portfolio):** Personal web showcase featuring custom particle shaders, interactive arcade demonstrations, and accessible project dossiers. [Live Deployment](https://cuetolanderjohn-maker.github.io/landers-portfolio/).
+* **[CPU Scheduler Simulation](https://github.com/cuetolanderjohn-maker/cpu-scheduler-simulation):** Operating system process scheduling engine implementing FCFS, SJF, Priority, and Round Robin scheduling algorithms in C++ and Python.
+* **[Computer Vision Gesture Lab](https://github.com/cuetolanderjohn-maker/Dancing-Cat-using-5-pin-points):** Client-side gesture tracking pipeline implementing YCrCb skin color segmentation, Haar face suppression, and convex hull defect extraction in OpenCV.
 
 ---
 
-## A retro arcade between commits
-
-My GitHub contributions, reimagined as a classic retro arcade cabinet. Active commit days power up the grid, while a pixel player navigates the tiles at 60 frames per second.
+## Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-arcade.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-arcade-light.svg" />
-  <img src="./assets/contribution-arcade.svg" alt="Animated retro arcade contribution grid with active commit tiles and pixel sprite" width="100%" />
+  <img src="./assets/contribution-arcade.svg" alt="Repository contribution timeline" width="100%" />
 </picture>
 
 <p align="center">
-  <img src="./assets/footer-strip.svg" width="100%" alt="KULAS — end of file" />
+  <img src="./assets/footer-strip.svg" width="100%" alt="End of portfolio document" />
 </p>
 
 <p align="center">
   <a href="mailto:landerjohncueto@gmail.com">
-    <img src="https://img.shields.io/badge/DIRECT_TRANSMISSION-landerjohncueto%40gmail.com-ef233c?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Transmission" />
+    <img src="https://img.shields.io/badge/Email-landerjohncueto%40gmail.com-0F172A?style=flat-square&logo=gmail&logoColor=white" alt="Email Direct" />
   </a>
   <a href="https://cuetolanderjohn-maker.github.io/landers-portfolio/">
-    <img src="https://img.shields.io/badge/ACCESS_HUB-PORTFOLIO_SITE-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=0a0b12" alt="Portfolio Site" />
+    <img src="https://img.shields.io/badge/Web-Portfolio_Site-0F172A?style=flat-square&logo=googlechrome&logoColor=38BDF8" alt="Portfolio Website" />
   </a>
-  <img src="https://img.shields.io/badge/SECTOR-PASIG_CITY%2C_PHILIPPINES-10121a?style=for-the-badge&logo=googlemaps&logoColor=38bdf8" alt="Sector Pasig City" />
+  <img src="https://img.shields.io/badge/Location-Pasig_City%2C_Philippines-0F172A?style=flat-square&logo=googlemaps&logoColor=94A3B8" alt="Location" />
 </p>
