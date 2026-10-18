@@ -7,14 +7,14 @@
 <rect width="1200" height="205" rx="11" fill="#0a0b12"/><rect width="1200" height="205" rx="11" fill="url(#g)"/>
 <rect x=".8" y=".8" width="1198.4" height="203.4" rx="10" fill="none" stroke="#232738"/>
 <text x="30" y="37" font-family="Consolas,monospace" font-size="13.5" letter-spacing="1.5" font-weight="bold" fill="#38bdf8">[ COMBAT TOOLKIT // EQUIPPED SLOTS ]</text>
-<text x="1170" y="37" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#64748b">LOC: PASIG CITY, PH // WEB &bull; GAMES &bull; AI TOOLS</text>
+<text x="1170" y="37" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#64748b">LOC: PASIG CITY, PH // WEB &#8226; GAMES &#8226; AI TOOLS</text>
 
 <g>
   <rect x="28" y="56" width="362" height="123" rx="7" fill="#10121a" stroke="#232738"/>
   <rect x="29" y="57" width="4" height="121" rx="2" fill="#38bdf8"/>
   <text x="53" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#38bdf8">01 / CLOUD &amp; WEB</text>
   <text x="53" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">EventEase &amp; Web</text>
-  <text x="53" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Firebase &bull; Realtime DB &bull; Next.js</text>
+  <text x="53" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Firebase &#8226; Realtime DB &#8226; Next.js</text>
 </g>
 
 <g>
@@ -22,7 +22,7 @@
   <rect x="419" y="57" width="4" height="121" rx="2" fill="#ef233c"/>
   <text x="443" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#ef233c">02 / GAME ENGINES</text>
   <text x="443" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">Arcade &amp; Physics</text>
-  <text x="443" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Canvas 2D &bull; Game Loops &bull; Audio</text>
+  <text x="443" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Canvas 2D &#8226; Game Loops &#8226; Audio</text>
 </g>
 
 <g>
@@ -30,6 +30,6 @@
   <rect x="809" y="57" width="4" height="121" rx="2" fill="#6366f1"/>
   <text x="833" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#818cf8">03 / AI &amp; SYSTEMS</text>
   <text x="833" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">Vision &amp; Logic</text>
-  <text x="833" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Gemini Vision &bull; OpenCV &bull; C++</text>
+  <text x="833" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Gemini Vision &#8226; OpenCV &#8226; C++</text>
 </g>
 </svg>

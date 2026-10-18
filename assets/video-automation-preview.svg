@@ -24,9 +24,9 @@
   <text x="35" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" letter-spacing="-1" fill="#EFE9DB">Video Automation</text>
   <text x="37" y="114" font-family="Consolas,monospace" font-size="13" fill="#C5A37E">Agentic Video Editing &amp; Captions</text>
   <path d="M38 132H385" stroke="#567069" stroke-width="1"/>
-  <text x="38" y="159" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">&bull; Automated dead-air &amp; breath removal</text>
-  <text x="38" y="184" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">&bull; Groq Whisper word-by-word captions</text>
-  <text x="38" y="209" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">&bull; HyperFrames &amp; GSAP motion overlays</text>
+  <text x="38" y="159" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">&#8226; Automated dead-air &amp; breath removal</text>
+  <text x="38" y="184" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">&#8226; Groq Whisper word-by-word captions</text>
+  <text x="38" y="209" font-family="Consolas,monospace" font-size="12.5" fill="#B8CBC1">&#8226; HyperFrames &amp; GSAP motion overlays</text>
   <rect x="38" y="232" width="343" height="3" fill="#3A5651"/><rect x="38" y="232" width="145" height="3" fill="#C28C62"/>
   <text x="38" y="266" font-family="Consolas,monospace" font-size="11" letter-spacing="1.1" fill="#8AA59B">AI CODING AGENT SKILL</text>
   <text x="210" y="266" font-family="Consolas,monospace" font-size="11" fill="#DDA269">Video-Edit-Automation</text>

@@ -126,7 +126,7 @@
     </text>
 
     <text x="325" y="-1" class="mono" font-size="11" fill="rgba(226, 232, 240, 0.5)">
-      // WEB &bull; GAMES &bull; AI TOOLS
+      // WEB &#8226; GAMES &#8226; AI TOOLS
     </text>
 
     <!-- Animated / Stylized Console Line -->
@@ -155,7 +155,7 @@
 
     <!-- Weaponry / Tool chips -->
     <text x="280" y="6" class="mono" font-size="10.5" fill="rgba(226, 232, 240, 0.7)" letter-spacing="1">
-      EQUIPPED: <tspan fill="#f8fafc" font-weight="600">FIREBASE</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">JS</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">CANVAS</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">C++</tspan> &bull; <tspan fill="#f8fafc" font-weight="600">PYTHON</tspan>
+      EQUIPPED: <tspan fill="#f8fafc" font-weight="600">FIREBASE</tspan> &#8226; <tspan fill="#f8fafc" font-weight="600">JS</tspan> &#8226; <tspan fill="#f8fafc" font-weight="600">CANVAS</tspan> &#8226; <tspan fill="#f8fafc" font-weight="600">C++</tspan> &#8226; <tspan fill="#f8fafc" font-weight="600">PYTHON</tspan>
     </text>
 
     <!-- Mission Ready Tag -->

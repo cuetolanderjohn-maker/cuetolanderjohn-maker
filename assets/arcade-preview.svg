@@ -17,7 +17,7 @@
 <rect x="1" y="1" width="1198" height="37" rx="10" fill="#131722"/><path d="M0 38H1200" stroke="#232738"/>
 <circle cx="23" cy="19" r="4.5" fill="#ef233c"/><circle cx="40" cy="19" r="4.5" fill="#f97316"/><circle cx="57" cy="19" r="4.5" fill="#38bdf8"/>
 <text x="80" y="25" fill="#ef233c" font-family="Consolas,monospace" font-size="13" font-weight="bold">[ARCADE ENGINE]: THUNDERBOLT MAZE</text>
-<text x="1175" y="25" fill="#94a3b8" text-anchor="end" font-family="Consolas,monospace" font-size="12">CANVAS 2D &bull; 60 FPS &bull; SYNTH AUDIO</text>
+<text x="1175" y="25" fill="#94a3b8" text-anchor="end" font-family="Consolas,monospace" font-size="12">CANVAS 2D &#8226; 60 FPS &#8226; SYNTH AUDIO</text>
 
 <!-- Left Details Column -->
 <g>
@@ -28,9 +28,9 @@
   <text x="37" y="136" font-family="Consolas,monospace" font-size="13.5" fill="#ef233c">Pacman: Pokemon Edition</text>
   <path d="M38 152H385" stroke="#232738" stroke-width="1.5"/>
 
-  <text x="38" y="178" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Tile-based deterministic collision</text>
-  <text x="38" y="202" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Pikachu electric power-pellet state</text>
-  <text x="38" y="226" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Custom Web Audio procedural sound FX</text>
+  <text x="38" y="178" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&#8226; Tile-based deterministic collision</text>
+  <text x="38" y="202" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&#8226; Pikachu electric power-pellet state</text>
+  <text x="38" y="226" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&#8226; Custom Web Audio procedural sound FX</text>
 
   <rect x="38" y="248" width="343" height="3" fill="#1e2433"/><rect x="38" y="248" width="150" height="3" fill="#ef233c"/>
   <text x="38" y="280" font-family="Consolas,monospace" font-size="11" letter-spacing="1.2" fill="#64748b">SOURCE REPO</text>
@@ -42,7 +42,7 @@
   <rect x="420" y="56" width="755" height="234" rx="8" fill="#0d1017" stroke="#232738" stroke-width="1.3"/>
   <rect x="421" y="57" width="753" height="28" rx="7" fill="#141824"/>
   <text x="440" y="76" font-family="Consolas,monospace" font-size="11" font-weight="bold" fill="#38bdf8">STAGE 01 // THUNDERBOLT MAZE</text>
-  <text x="1155" y="76" text-anchor="end" font-family="Consolas,monospace" font-size="11" font-weight="bold" fill="#ef233c">SCORE: 0420 &bull; LIVES: ♥♥♥</text>
+  <text x="1155" y="76" text-anchor="end" font-family="Consolas,monospace" font-size="11" font-weight="bold" fill="#ef233c">SCORE: 0420 &#8226; LIVES: ♥♥♥</text>
 
   <!-- Maze Walls Structure -->
   <g fill="none" stroke="#232738" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">

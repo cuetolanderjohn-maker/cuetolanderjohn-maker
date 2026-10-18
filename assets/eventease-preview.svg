@@ -18,7 +18,7 @@
 <rect x="1" y="1" width="1198" height="37" rx="10" fill="#131722"/><path d="M0 38H1200" stroke="#232738"/>
 <circle cx="23" cy="19" r="4.5" fill="#ef233c"/><circle cx="40" cy="19" r="4.5" fill="#f97316"/><circle cx="57" cy="19" r="4.5" fill="#38bdf8"/>
 <text x="80" y="25" fill="#38bdf8" font-family="Consolas,monospace" font-size="13" font-weight="bold">[LIVE SYSTEM]: EVENTEASE MANAGEMENT APP</text>
-<text x="1175" y="25" fill="#94a3b8" text-anchor="end" font-family="Consolas,monospace" font-size="12">PRODUCTION &bull; FIREBASE CLOUD</text>
+<text x="1175" y="25" fill="#94a3b8" text-anchor="end" font-family="Consolas,monospace" font-size="12">PRODUCTION &#8226; FIREBASE CLOUD</text>
 
 <!-- Left Details Column -->
 <g>
@@ -29,9 +29,9 @@
   <text x="37" y="136" font-family="Consolas,monospace" font-size="13.5" fill="#38bdf8">cloud event management &amp; scheduling</text>
   <path d="M38 152H385" stroke="#232738" stroke-width="1.5"/>
 
-  <text x="38" y="178" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Secure authentication &amp; session verification</text>
-  <text x="38" y="202" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Real-time Firestore live schedule sync</text>
-  <text x="38" y="226" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Dynamic calendar &amp; responsive attendee UI</text>
+  <text x="38" y="178" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&#8226; Secure authentication &amp; session verification</text>
+  <text x="38" y="202" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&#8226; Real-time Firestore live schedule sync</text>
+  <text x="38" y="226" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&#8226; Dynamic calendar &amp; responsive attendee UI</text>
 
   <rect x="38" y="248" width="343" height="3" fill="#1e2433"/><rect x="38" y="248" width="150" height="3" fill="url(#cyan-stream)"/>
   <text x="38" y="280" font-family="Consolas,monospace" font-size="11" letter-spacing="1.2" fill="#64748b">DEPLOYED WEB APP</text>
@@ -52,7 +52,7 @@
   <text x="457" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Vanilla JavaScript</text>
   <text x="457" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Dynamic Calendar</text>
   <text x="457" y="220" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">DOM State Listeners</text>
-  <text x="457" y="246" font-family="Consolas,monospace" font-size="10" fill="#10b981">&bull; Authenticated Session</text>
+  <text x="457" y="246" font-family="Consolas,monospace" font-size="10" fill="#10b981">&#8226; Authenticated Session</text>
 
   <!-- Stream 1 to 2 -->
   <line x1="640" y1="182" x2="725" y2="182" stroke="#38bdf8" stroke-width="2" class="flow-line"/>
@@ -66,7 +66,7 @@
   <text x="745" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#38bdf8">Token Validation</text>
   <text x="745" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Role Verification</text>
   <text x="745" y="220" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Session Persistence</text>
-  <text x="745" y="246" font-family="Consolas,monospace" font-size="10" fill="#818cf8">&bull; Multi-Role Guard</text>
+  <text x="745" y="246" font-family="Consolas,monospace" font-size="10" fill="#818cf8">&#8226; Multi-Role Guard</text>
 
   <!-- Stream 2 to 3 -->
   <line x1="928" y1="182" x2="965" y2="182" stroke="#6366f1" stroke-width="2" class="flow-line"/>
@@ -80,6 +80,6 @@
   <text x="985" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Live Event Sync</text>
   <text x="985" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Booking Queries</text>
   <text x="985" y="220" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Snapshot Delta</text>
-  <text x="985" y="246" font-family="Consolas,monospace" font-size="10" fill="#38bdf8">&bull; Zero Delay Push</text>
+  <text x="985" y="246" font-family="Consolas,monospace" font-size="10" fill="#38bdf8">&#8226; Zero Delay Push</text>
 </g>
 </svg>
