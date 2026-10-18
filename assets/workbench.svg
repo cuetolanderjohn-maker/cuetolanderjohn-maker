@@ -1,6 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" role="img" aria-labelledby="t d">
 <title id="t">Technical Competencies and Stack</title>
-<desc id="d">Three minimalist engineering cards for full-stack cloud, game development, and AI systems.</desc>
+<desc id="d">Three animated minimalist engineering cards for full-stack cloud, game development, and AI systems.</desc>
+
+<defs>
+  <!-- Card subtle gradients -->
+  <linearGradient id="card-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0F1422"/>
+    <stop offset="100%" stop-color="#0A0D15"/>
+  </linearGradient>
+  <linearGradient id="card-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#181116"/>
+    <stop offset="100%" stop-color="#0A0D15"/>
+  </linearGradient>
+  <linearGradient id="card-grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#131222"/>
+    <stop offset="100%" stop-color="#0A0D15"/>
+  </linearGradient>
+</defs>
+
+<style>
+  @keyframes syncPing1 { 0%,100%{opacity:0.25} 33%{opacity:1} }
+  @keyframes syncPing2 { 0%,100%{opacity:0.25} 66%{opacity:1} }
+  @keyframes syncPing3 { 0%,100%{opacity:0.25} 99%{opacity:1} }
+  @keyframes gameTick { 0%,100%{transform:translateX(0)} 50%{transform:translateX(10px)} }
+  @keyframes pelletFade { 0%,100%{opacity:0.8} 50%{opacity:0.2} }
+  @keyframes aiWave { 0%{r:3px;opacity:0.9;stroke-width:1.5px} 100%{r:10px;opacity:0;stroke-width:0.5px} }
+  @keyframes stripePulse1 { 0%,100%{opacity:0.75} 50%{opacity:1} }
+  @keyframes stripePulse2 { 0%,100%{opacity:0.75} 50%{opacity:1} }
+  @keyframes stripePulse3 { 0%,100%{opacity:0.75} 50%{opacity:1} }
+
+  .dot-ping1 { animation: syncPing1 1.5s infinite; }
+  .dot-ping2 { animation: syncPing2 1.5s infinite; }
+  .dot-ping3 { animation: syncPing3 1.5s infinite; }
+  .game-runner { animation: gameTick 2s ease-in-out infinite; }
+  .game-pellet { animation: pelletFade 1s ease-in-out infinite; }
+  .ai-radar { animation: aiWave 2s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
+  .stripe-1 { animation: stripePulse1 3s ease-in-out infinite; }
+  .stripe-2 { animation: stripePulse2 3s ease-in-out infinite 1s; }
+  .stripe-3 { animation: stripePulse3 3s ease-in-out infinite 2s; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .dot-ping1, .dot-ping2, .dot-ping3, .game-runner, .game-pellet, .ai-radar, .stripe-1, .stripe-2, .stripe-3 {
+      animation: none;
+    }
+  }
+</style>
+
 <rect width="1200" height="180" rx="10" fill="#090A0F"/>
 <rect x=".75" y=".75" width="1198.5" height="178.5" rx="9.25" fill="none" stroke="#1E2330"/>
 
@@ -9,24 +54,46 @@
 
 <!-- 3 Balanced Cards -->
 <g transform="translate(32, 52)">
-  <!-- Card 1 -->
-  <rect x="0" y="0" width="362" height="106" rx="6" fill="#0F131C" stroke="#1E2638" stroke-width="1"/>
-  <rect x="0" y="0" width="3" height="106" rx="1.5" fill="#38BDF8"/>
+  <!-- Card 1: Cloud & Full-Stack -->
+  <rect x="0" y="0" width="362" height="106" rx="6" fill="url(#card-grad1)" stroke="#1E2638" stroke-width="1"/>
+  <rect x="0" y="0" width="3" height="106" rx="1.5" fill="#38BDF8" class="stripe-1"/>
   <text x="24" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing=".5">CLOUD &amp; FULL-STACK</text>
+  
+  <!-- Real-time sync stream animation -->
+  <g transform="translate(316, 24)">
+    <circle cx="0" cy="0" r="2.5" fill="#38BDF8" class="dot-ping1"/>
+    <circle cx="9" cy="0" r="2.5" fill="#38BDF8" class="dot-ping2"/>
+    <circle cx="18" cy="0" r="2.5" fill="#38BDF8" class="dot-ping3"/>
+  </g>
+
   <text x="24" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="19" font-weight="700" fill="#F8FAFC">Event Management Systems</text>
   <text x="24" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#94A3B8">Next.js • TypeScript • Firebase Firestore</text>
 
-  <!-- Card 2 -->
-  <rect x="386" y="0" width="362" height="106" rx="6" fill="#0F131C" stroke="#1E2638" stroke-width="1"/>
-  <rect x="386" y="0" width="3" height="106" rx="1.5" fill="#EF4444"/>
+  <!-- Card 2: Game Dev & Graphics -->
+  <rect x="386" y="0" width="362" height="106" rx="6" fill="url(#card-grad2)" stroke="#2D1F28" stroke-width="1"/>
+  <rect x="386" y="0" width="3" height="106" rx="1.5" fill="#EF4444" class="stripe-2"/>
   <text x="410" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#EF4444" letter-spacing=".5">GAME DEV &amp; GRAPHICS</text>
+  
+  <!-- 60 FPS pixel tick animation -->
+  <g transform="translate(696, 24)">
+    <circle cx="0" cy="0" r="2.5" fill="#EF4444" class="game-runner"/>
+    <rect x="18" y="-2" width="4" height="4" rx="1" fill="#F59E0B" class="game-pellet"/>
+  </g>
+
   <text x="410" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="19" font-weight="700" fill="#F8FAFC">Deterministic 2D Engines</text>
   <text x="410" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#94A3B8">Canvas 2D • Collision Logic • Web Audio</text>
 
-  <!-- Card 3 -->
-  <rect x="772" y="0" width="364" height="106" rx="6" fill="#0F131C" stroke="#1E2638" stroke-width="1"/>
-  <rect x="772" y="0" width="3" height="106" rx="1.5" fill="#818CF8"/>
+  <!-- Card 3: Applied AI & Systems -->
+  <rect x="772" y="0" width="364" height="106" rx="6" fill="url(#card-grad3)" stroke="#262238" stroke-width="1"/>
+  <rect x="772" y="0" width="3" height="106" rx="1.5" fill="#818CF8" class="stripe-3"/>
   <text x="796" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="700" fill="#818CF8" letter-spacing=".5">APPLIED AI &amp; SYSTEMS</text>
+  
+  <!-- AI Neural pulse animation -->
+  <g transform="translate(1096, 24)">
+    <circle cx="0" cy="0" r="3" fill="#818CF8"/>
+    <circle cx="0" cy="0" r="3" fill="none" stroke="#818CF8" class="ai-radar"/>
+  </g>
+
   <text x="796" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="19" font-weight="700" fill="#F8FAFC">Multimodal Agent Pipelines</text>
   <text x="796" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#94A3B8">Gemini Vision • Groq Whisper • OpenCV • C++</text>
 </g>

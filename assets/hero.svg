@@ -1,36 +1,115 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" role="img" aria-labelledby="t d">
 <title id="t">Lander John Cueto — Engineering Portfolio</title>
-<desc id="d">Minimalist, editorial dark theme banner with typography and technical stack telemetry.</desc>
+<desc id="d">Minimalist, editorial dark theme banner with animated telemetry, typography, and technical stack benchmarks.</desc>
+
 <defs>
-  <radialGradient id="ambient" cx="80%" cy="20%" r="60%">
-    <stop offset="0%" stop-color="#1E293B" stop-opacity=".45"/>
-    <stop offset="100%" stop-color="#090A0F" stop-opacity="0"/>
+  <!-- Ambient Aurora Orbs -->
+  <radialGradient id="aurora-cyan" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
   </radialGradient>
+  <radialGradient id="aurora-indigo" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#818CF8" stop-opacity="0.16"/>
+    <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Border Beam Gradient -->
+  <linearGradient id="beam-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Subtle Card Border -->
   <linearGradient id="card-border" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#2D3748"/>
-    <stop offset="100%" stop-color="#1A202C"/>
+    <stop offset="0%" stop-color="#334155"/>
+    <stop offset="100%" stop-color="#1E293B"/>
   </linearGradient>
 </defs>
+
 <style>
-@keyframes pulseDot{0%,100%{opacity:1}50%{opacity:.4}}
-.pulse{animation:pulseDot 2.4s ease-in-out infinite}
+  @keyframes ripple {
+    0% { r: 3.5px; opacity: 0.9; stroke-width: 1.5px; }
+    100% { r: 11px; opacity: 0; stroke-width: 0.5px; }
+  }
+  @keyframes auroraDrift {
+    0%, 100% { transform: translate(0px, 0px) scale(1); opacity: 0.6; }
+    50% { transform: translate(-25px, 15px) scale(1.15); opacity: 0.9; }
+  }
+  @keyframes beamSpin {
+    0% { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: -1000; }
+  }
+  @keyframes cursorBlink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+  @keyframes eqBounce1 { 0%,100%{ transform: scaleY(0.35); } 50%{ transform: scaleY(1); } }
+  @keyframes eqBounce2 { 0%,100%{ transform: scaleY(0.9); } 50%{ transform: scaleY(0.25); } }
+  @keyframes eqBounce3 { 0%,100%{ transform: scaleY(0.4); } 50%{ transform: scaleY(0.85); } }
+  @keyframes eqBounce4 { 0%,100%{ transform: scaleY(0.8); } 50%{ transform: scaleY(0.3); } }
+  @keyframes scanline {
+    0% { transform: translateY(0); opacity: 0; }
+    15% { opacity: 0.35; }
+    85% { opacity: 0.35; }
+    100% { transform: translateY(184px); opacity: 0; }
+  }
+
+  .radar-ring { animation: ripple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
+  .aurora-1 { animation: auroraDrift 8s ease-in-out infinite; transform-origin: 900px 100px; }
+  .aurora-2 { animation: auroraDrift 10s ease-in-out infinite reverse; transform-origin: 300px 180px; }
+  .border-beam { animation: beamSpin 6s linear infinite; }
+  .cursor { animation: cursorBlink 1s infinite; }
+  .eq-bar1 { animation: eqBounce1 1.1s ease-in-out infinite; transform-origin: 0 10px; }
+  .eq-bar2 { animation: eqBounce2 1.3s ease-in-out infinite 0.15s; transform-origin: 0 10px; }
+  .eq-bar3 { animation: eqBounce3 0.95s ease-in-out infinite 0.3s; transform-origin: 0 10px; }
+  .eq-bar4 { animation: eqBounce4 1.25s ease-in-out infinite 0.1s; transform-origin: 0 10px; }
+  .telemetry-scan { animation: scanline 4s linear infinite; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .radar-ring, .aurora-1, .aurora-2, .border-beam, .cursor, .eq-bar1, .eq-bar2, .eq-bar3, .eq-bar4, .telemetry-scan {
+      animation: none;
+    }
+  }
 </style>
+
+<!-- Base Container -->
 <rect width="1200" height="280" rx="12" fill="#090A0F"/>
-<rect width="1200" height="280" rx="12" fill="url(#ambient)"/>
+
+<!-- Floating Ambient Aurora -->
+<g class="aurora-1">
+  <circle cx="920" cy="110" r="180" fill="url(#aurora-cyan)"/>
+</g>
+<g class="aurora-2">
+  <circle cx="320" cy="180" r="220" fill="url(#aurora-indigo)"/>
+</g>
+
+<!-- Subtle Grid Texture -->
+<g stroke="#1E293B" stroke-width="0.5" stroke-dasharray="2 4" opacity="0.35">
+  <line x1="0" y1="70" x2="1200" y2="70"/>
+  <line x1="0" y1="140" x2="1200" y2="140"/>
+  <line x1="0" y1="210" x2="1200" y2="210"/>
+  <line x1="300" y1="0" x2="300" y2="280"/>
+  <line x1="600" y1="0" x2="600" y2="280"/>
+  <line x1="900" y1="0" x2="900" y2="280"/>
+</g>
+
+<!-- Outer 1px Border -->
 <rect x=".75" y=".75" width="1198.5" height="278.5" rx="11.25" fill="none" stroke="#1E2330"/>
 
 <!-- Left Editorial Stack -->
 <g transform="translate(64, 48)">
   <!-- Status Indicator Pill -->
   <rect x="0" y="0" width="232" height="26" rx="13" fill="#111520" stroke="#222B3D" stroke-width="1"/>
-  <circle cx="14" cy="13" r="3.5" fill="#10B981" class="pulse"/>
+  <circle cx="14" cy="13" r="3.5" fill="#10B981"/>
+  <circle cx="14" cy="13" r="3.5" fill="none" stroke="#10B981" class="radar-ring"/>
   <text x="26" y="17" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing=".4">ACTIVE • PASIG CITY, PHILIPPINES</text>
 
-  <!-- Name -->
+  <!-- Name & Alias -->
   <text x="0" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-weight="800" font-size="52" letter-spacing="-1.8" fill="#F8FAFC">
     Lander John Cueto
   </text>
-  <text x="495" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16" font-weight="500" fill="#64748B">/ kulas</text>
+  <text x="495" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16" font-weight="500" fill="#64748B">/ kulas<tspan fill="#38BDF8" class="cursor">_</tspan></text>
 
   <!-- Title & Philosophy -->
   <text x="0" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif" font-size="20" font-weight="500" fill="#94A3B8" letter-spacing="-.3">
@@ -43,11 +122,31 @@
 
 <!-- Right Minimalist Telemetry Card -->
 <g transform="translate(820, 48)">
-  <rect width="316" height="184" rx="8" fill="#0E121A" stroke="url(#card-border)" stroke-width="1"/>
+  <!-- Card Background -->
+  <rect width="316" height="184" rx="8" fill="#0E121A"/>
   
+  <!-- Base Border -->
+  <rect width="316" height="184" rx="8" fill="none" stroke="url(#card-border)" stroke-width="1"/>
+
+  <!-- Animated Border Beam Tracer -->
+  <rect width="316" height="184" rx="8" fill="none" stroke="url(#beam-grad)" stroke-width="1.75" stroke-dasharray="160 840" class="border-beam"/>
+
+  <!-- Scanning Sweep Beam -->
+  <line x1="0" y1="0" x2="316" y2="0" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4" class="telemetry-scan"/>
+
+  <!-- Card Header -->
   <rect x="0" y="0" width="316" height="34" rx="8" fill="#141A26"/>
   <text x="16" y="22" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" font-weight="600" fill="#64748B" letter-spacing=".8">SYSTEM BENCHMARKS</text>
 
+  <!-- Mini EQ activity indicator in header -->
+  <g transform="translate(276, 14)" fill="#38BDF8">
+    <rect x="0" y="0" width="2" height="10" rx="1" class="eq-bar1"/>
+    <rect x="5" y="0" width="2" height="10" rx="1" class="eq-bar2"/>
+    <rect x="10" y="0" width="2" height="10" rx="1" class="eq-bar3"/>
+    <rect x="15" y="0" width="2" height="10" rx="1" class="eq-bar4"/>
+  </g>
+
+  <!-- Telemetry Metrics -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">
     <text x="16" y="64" fill="#64748B">Input Latency</text>
     <text x="300" y="64" text-anchor="end" font-weight="700" fill="#38BDF8">0 ms • 60 FPS</text>
