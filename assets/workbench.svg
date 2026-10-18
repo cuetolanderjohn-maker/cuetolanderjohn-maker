@@ -1,29 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="205" viewBox="0 0 1200 205" role="img" aria-labelledby="t d">
-<title id="t">What I work with</title><desc id="d">Three understated cards for AI curriculum web apps, media automation, and arcade game engines / computer vision, on a graphite blueprint grid.</desc>
-<defs><pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#607F80" stroke-opacity=".11"/></pattern></defs>
-<rect width="1200" height="205" rx="11" fill="#182125"/><rect width="1200" height="205" rx="11" fill="url(#g)"/>
-<rect x=".8" y=".8" width="1198.4" height="203.4" rx="10" fill="none" stroke="#344B4C"/>
-<text x="30" y="37" font-family="Consolas,monospace" font-size="14" letter-spacing="1.9" fill="#A0B9B1">CURRENT SETUP</text>
-<text x="1170" y="37" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#728E90">PROFILE / KULAS?</text>
+<title id="t">Equipped Combat Toolkit &amp; Disciplines</title>
+<desc id="d">Three technical cards for cloud web systems, 2D arcade engines, and AI algorithms / computer vision on an ink-black grid.</desc>
+<defs>
+  <pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#38bdf8" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1200" height="205" rx="11" fill="#0a0b12"/><rect width="1200" height="205" rx="11" fill="url(#g)"/>
+<rect x=".8" y=".8" width="1198.4" height="203.4" rx="10" fill="none" stroke="#232738"/>
+<text x="30" y="37" font-family="Consolas,monospace" font-size="13.5" letter-spacing="1.5" font-weight="bold" fill="#38bdf8">[ COMBAT TOOLKIT // EQUIPPED SLOTS ]</text>
+<text x="1170" y="37" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#64748b">LOC: PASIG CITY, PH // BS CpE</text>
+
 <g>
-<rect x="28" y="56" width="362" height="123" rx="7" fill="#202C2E" stroke="#3C5655"/>
-<rect x="29" y="57" width="4" height="121" rx="2" fill="#DDA269"/>
-<text x="53" y="87" font-family="Consolas,monospace" font-size="13" fill="#DDA269">01 / BUILD</text>
-<text x="53" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#F0E7DA">Curriculum &amp; Web</text>
-<text x="53" y="153" font-family="Consolas,monospace" font-size="14" fill="#9EB5AE">Next.js   TypeScript   Gemini Vision</text>
+  <rect x="28" y="56" width="362" height="123" rx="7" fill="#10121a" stroke="#232738"/>
+  <rect x="29" y="57" width="4" height="121" rx="2" fill="#38bdf8"/>
+  <text x="53" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#38bdf8">01 / CLOUD &amp; WEB</text>
+  <text x="53" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">EventEase &amp; Web</text>
+  <text x="53" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Firebase &bull; Realtime DB &bull; Next.js</text>
 </g>
+
 <g>
-<rect x="418" y="56" width="362" height="123" rx="7" fill="#202C2E" stroke="#3C5655"/>
-<rect x="419" y="57" width="4" height="121" rx="2" fill="#7FB8AD"/>
-<text x="443" y="87" font-family="Consolas,monospace" font-size="13" fill="#85C7BA">02 / AUTOMATE</text>
-<text x="443" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#F0E7DA">Video &amp; AI Tools</text>
-<text x="443" y="153" font-family="Consolas,monospace" font-size="14" fill="#9EB5AE">Groq Whisper   Node.js   FFmpeg</text>
+  <rect x="418" y="56" width="362" height="123" rx="7" fill="#10121a" stroke="#232738"/>
+  <rect x="419" y="57" width="4" height="121" rx="2" fill="#ef233c"/>
+  <text x="443" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#ef233c">02 / GAME ENGINES</text>
+  <text x="443" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">Arcade &amp; Physics</text>
+  <text x="443" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Canvas 2D &bull; Game Loops &bull; Audio</text>
 </g>
+
 <g>
-<rect x="808" y="56" width="364" height="123" rx="7" fill="#202C2E" stroke="#3C5655"/>
-<rect x="809" y="57" width="4" height="121" rx="2" fill="#B4BAA1"/>
-<text x="833" y="87" font-family="Consolas,monospace" font-size="13" fill="#C1C8AF">03 / DEVELOP</text>
-<text x="833" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#F0E7DA">Arcade &amp; Systems</text>
-<text x="833" y="153" font-family="Consolas,monospace" font-size="14" fill="#9EB5AE">Canvas 2D   OpenCV   C++   Python</text>
+  <rect x="808" y="56" width="364" height="123" rx="7" fill="#10121a" stroke="#232738"/>
+  <rect x="809" y="57" width="4" height="121" rx="2" fill="#6366f1"/>
+  <text x="833" y="87" font-family="Consolas,monospace" font-size="13" font-weight="bold" fill="#818cf8">03 / AI &amp; SYSTEMS</text>
+  <text x="833" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="bold" fill="#f8fafc">Vision &amp; Logic</text>
+  <text x="833" y="153" font-family="Consolas,monospace" font-size="13.5" fill="#94a3b8">Gemini Vision &bull; OpenCV &bull; C++</text>
 </g>
 </svg>

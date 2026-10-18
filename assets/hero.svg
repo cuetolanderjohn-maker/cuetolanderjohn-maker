@@ -1,46 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-labelledby="t d">
-<title id="t">KULAS? — Developer profile</title>
-<desc id="d">A charcoal, sea-glass and copper profile banner with a technical grid and a small code editor panel.</desc>
+<title id="t">KULAS // Lander John D. Cueto — Developer Profile</title>
+<desc id="d">A cinematic ink-black, crimson red and sky ice blue profile banner with a tactical cyber grid and code telemetry window.</desc>
 <defs>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#86A3A2" stroke-width=".7" opacity=".11"/></pattern>
-  <pattern id="noise" width="57" height="43" patternUnits="userSpaceOnUse"><circle cx="6" cy="15" r=".7" fill="#C6D4CC" opacity=".22"/><circle cx="42" cy="37" r=".65" fill="#DFA36C" opacity=".23"/><circle cx="27" cy="8" r=".6" fill="#FFFFFF" opacity=".12"/></pattern>
-  <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141C20"/><stop offset=".7" stop-color="#1C2529"/><stop offset="1" stop-color="#102023"/></linearGradient>
-  <linearGradient id="rule"><stop stop-color="#DDA269"/><stop offset=".6" stop-color="#A4C8BE"/><stop offset="1" stop-color="#A4C8BE" stop-opacity=".15"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#38bdf8" stroke-width=".7" opacity=".08"/></pattern>
+  <pattern id="noise" width="57" height="43" patternUnits="userSpaceOnUse"><circle cx="6" cy="15" r=".7" fill="#ef233c" opacity=".18"/><circle cx="42" cy="37" r=".65" fill="#38bdf8" opacity=".2"/><circle cx="27" cy="8" r=".6" fill="#ffffff" opacity=".1"/></pattern>
+  <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08090e"/><stop offset=".6" stop-color="#0a0b12"/><stop offset="1" stop-color="#050608"/></linearGradient>
+  <linearGradient id="rule"><stop stop-color="#ef233c"/><stop offset=".6" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".15"/></linearGradient>
+  <linearGradient id="cyan-glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
 </defs>
 <style>
 @keyframes caret{0%,49%{opacity:1}50%,100%{opacity:0}}
 @keyframes progress{0%{transform:translateX(-115px)}100%{transform:translateX(365px)}}
-.caret{animation:caret 1.4s steps(1) infinite}.scan{animation:progress 9s linear infinite}
-@media(prefers-reduced-motion:reduce){.caret,.scan{animation:none}}
+@keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.85)}}
+.caret{animation:caret 1.4s steps(1) infinite}
+.scan{animation:progress 8s linear infinite}
+.pulse{animation:pulseDot 2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.caret,.scan,.pulse{animation:none}}
 </style>
+<!-- Background Layers -->
 <rect width="1200" height="350" rx="14" fill="url(#shade)"/>
 <rect width="1200" height="350" rx="14" fill="url(#grid)"/>
 <rect width="1200" height="350" rx="14" fill="url(#noise)"/>
-<path d="M0 334H1200" stroke="#DDA269" stroke-width="2"/>
-<path d="M30 30h54M30 30v43M1170 30h-54M1170 30v43M30 320h54M30 320v-25M1170 320h-54M1170 320v-25" stroke="#658F8C" fill="none" stroke-width="1.5" opacity=".55"/>
-<g fill="none" stroke="#78A29D" stroke-opacity=".28">
+<path d="M0 334H1200" stroke="#ef233c" stroke-width="2"/>
+
+<!-- Corner HUD Brackets -->
+<path d="M30 30h54M30 30v43M1170 30h-54M1170 30v43M30 320h54M30 320v-25M1170 320h-54M1170 320v-25" stroke="#38bdf8" fill="none" stroke-width="1.6" opacity=".65"/>
+
+<!-- Circuit Trace Lines -->
+<g fill="none" stroke="#ef233c" stroke-opacity=".3">
   <path d="M0 86h74l28 22h96"/><path d="M0 109h42l20 15h99"/><path d="M1160 270h-64l-37 30h-79"/>
 </g>
-<g fill="#DDA269"><circle cx="102" cy="108" r="3"/><circle cx="1059" cy="300" r="3"/></g>
-<text x="74" y="69" font-family="Consolas,Menlo,monospace" letter-spacing="2.3" font-size="16" fill="#A9C7C0">DEV NOTES / 001</text>
-<text x="68" y="177" font-family="Segoe UI,Arial,sans-serif" font-weight="750" font-size="99" letter-spacing="-2.8" fill="#F0E7DA">KULAS<tspan fill="#DDA269">?</tspan></text>
-<rect x="73" y="195" width="350" height="3" fill="#314B4D"/><rect x="73" y="195" width="120" height="3" fill="url(#rule)"/>
-<text x="73" y="243" font-family="Segoe UI,Arial,sans-serif" font-size="27" fill="#D4E1D9">Code it. Play it. Ship it.</text>
-<text x="74" y="286" font-family="Consolas,Menlo,monospace" font-size="15" fill="#90ACA9">NEXT.JS / TS  <tspan fill="#DDA269">•</tspan>  AI VISION &amp; AUTOMATION  <tspan fill="#DDA269">•</tspan>  GAME DEV</text>
-<g>
- <rect x="724" y="59" width="416" height="240" rx="9" fill="#101719" stroke="#51716F" stroke-width="1.4"/>
- <rect x="725" y="60" width="414" height="36" rx="8" fill="#253034"/>
- <path d="M725 96h414" stroke="#50696A" opacity=".6"/>
- <circle cx="745" cy="78" r="4.5" fill="#C97F66"/><circle cx="762" cy="78" r="4.5" fill="#DDA269"/><circle cx="779" cy="78" r="4.5" fill="#7FB9A7"/>
- <text x="932" y="82" font-family="Consolas,Menlo,monospace" font-size="12" fill="#ACBFB7" text-anchor="middle">notes / current-focus.txt</text>
- <g font-family="Consolas,Menlo,monospace" font-size="15">
-   <text x="748" y="136" fill="#647D7F">01</text><text x="782" y="136" fill="#CFDFD5">computer engineering</text>
-   <text x="748" y="174" fill="#647D7F">02</text><text x="782" y="174" fill="#DDA269">lesson plan studio (ai vision)</text>
-   <text x="748" y="212" fill="#647D7F">03</text><text x="782" y="212" fill="#9DC9BA">video automation + arcade</text>
-   <text x="748" y="258" fill="#647D7F">04</text><text x="782" y="258" fill="#CFDFD5">&gt; keep building</text>
- </g>
- <rect class="caret" x="926" y="246" width="8" height="17" fill="#DDA269"/>
+<g fill="#ef233c"><circle cx="102" cy="108" r="3"/><circle cx="1059" cy="300" r="3"/></g>
+
+<!-- Left Identity Section -->
+<g transform="translate(68, 0)">
+  <rect x="6" y="52" width="168" height="20" rx="3" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+  <circle cx="16" cy="62" r="3.5" fill="#10b981" class="pulse"/>
+  <text x="26" y="66" font-family="Consolas,Menlo,monospace" letter-spacing="1.5" font-size="11.5" font-weight="bold" fill="#38bdf8">SYSTEM: ONLINE // 001</text>
+
+  <!-- Big Name -->
+  <text x="0" y="152" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="82" letter-spacing="-2" fill="#f8fafc">
+    KULAS<tspan fill="#ef233c">.</tspan>
+  </text>
+  <text x="286" y="148" font-family="Consolas,monospace" font-size="14" fill="rgba(226, 232, 240, 0.6)">// LANDER JOHN D. CUETO</text>
+
+  <!-- Horizontal Glow Bar -->
+  <rect x="5" y="168" width="410" height="3.5" fill="#1e2230"/><rect x="5" y="168" width="180" height="3.5" fill="url(#rule)"/>
+
+  <!-- Tagline -->
+  <text x="5" y="212" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="600" fill="#e2e8f0">
+    Junior Web &amp; Game Developer
+  </text>
+  <text x="5" y="246" font-family="Consolas,Menlo,monospace" font-size="14.5" fill="#38bdf8">
+    EVENT MANAGEMENT  <tspan fill="#ef233c">&bull;</tspan>  ARCADE ENGINES  <tspan fill="#ef233c">&bull;</tspan>  AI VISION
+  </text>
+
+  <!-- Location & Campus Tag -->
+  <text x="5" y="280" font-family="Consolas,monospace" font-size="12.5" fill="rgba(226, 232, 240, 0.65)">
+    PASIG CITY, PHILIPPINES // BS COMPUTER ENGINEERING @ ICCT COLLEGES
+  </text>
+
+  <!-- Scanline Underline -->
+  <path d="M5 306H480" stroke="#232738" stroke-width="1"/>
+  <rect class="scan" x="5" y="305" width="110" height="2" rx="1" fill="#ef233c" opacity=".6"/>
 </g>
-<path d="M73 313H466" stroke="#496565" opacity=".35"/>
-<rect class="scan" x="74" y="310" width="95" height="2" rx="1" fill="#A6C9BC" opacity=".3"/>
+
+<!-- Right Telemetry Terminal Window -->
+<g>
+  <rect x="714" y="52" width="436" height="252" rx="9" fill="#0d0f17" stroke="#232738" stroke-width="1.5"/>
+  <rect x="715" y="53" width="434" height="34" rx="8" fill="#141824"/>
+  <path d="M715 87h434" stroke="#232738" stroke-width="1"/>
+  <circle cx="735" cy="70" r="4.5" fill="#ef233c"/>
+  <circle cx="752" cy="70" r="4.5" fill="#f97316"/>
+  <circle cx="769" cy="70" r="4.5" fill="#38bdf8"/>
+  <text x="932" y="74" font-family="Consolas,Menlo,monospace" font-size="11.5" fill="#94a3b8" text-anchor="middle">mission / current-dossier.txt</text>
+
+  <g font-family="Consolas,Menlo,monospace" font-size="14.5">
+    <text x="738" y="122" fill="#475569">01</text>
+    <text x="772" y="122" fill="#94a3b8">class    = <tspan fill="#38bdf8">"Web &amp; Game Developer"</tspan></text>
+
+    <text x="738" y="156" fill="#475569">02</text>
+    <text x="772" y="156" fill="#94a3b8">flagship = <tspan fill="#ef233c">"EventEase Cloud App"</tspan></text>
+
+    <text x="738" y="190" fill="#475569">03</text>
+    <text x="772" y="190" fill="#94a3b8">engine   = <tspan fill="#f97316">"Thunderbolt 2D Arcade"</tspan></text>
+
+    <text x="738" y="224" fill="#475569">04</text>
+    <text x="772" y="224" fill="#94a3b8">studio   = <tspan fill="#38bdf8">"Lesson Plan AI Vision"</tspan></text>
+
+    <text x="738" y="264" fill="#475569">05</text>
+    <text x="772" y="264" fill="#f8fafc">&gt; every frame of latency counts</text>
+  </g>
+  <rect class="caret" x="1036" y="251" width="8" height="16" fill="#ef233c"/>
+</g>
 </svg>

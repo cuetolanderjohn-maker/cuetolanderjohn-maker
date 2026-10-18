@@ -1,76 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
-<title id="t">EventEase — Cloud-Hosted Event Management Architecture</title>
-<desc id="d">A technical diagram showing EventEase client-side event scheduling, authentication routing, and real-time Firebase synchronization.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="t d">
+<title id="t">EventEase — Cloud Event Management System Architecture</title>
+<desc id="d">A technical architectural schematic of the EventEase cloud application showing Firebase authentication, real-time Firestore database synchronization, and responsive DOM scheduling.</desc>
 <defs>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#72918A" stroke-opacity=".085"/></pattern>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172225"/><stop offset="1" stop-color="#1F292B"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#38bdf8" stroke-opacity=".08"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08090e"/><stop offset="1" stop-color="#0d1017"/></linearGradient>
+  <linearGradient id="cyan-stream" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
 </defs>
 <style>
-@keyframes flow{to{stroke-dashoffset:-36}}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
-.pulse-glow{animation:pulse 3s ease-in-out infinite}
-.flow-line{stroke-dasharray:6 6;animation:flow 2.5s linear infinite}
-@media(prefers-reduced-motion:reduce){.flow-line,.pulse-glow{animation:none}}
+@keyframes flowStream{to{stroke-dashoffset:-36}}
+@keyframes pulseDot{0%,100%{opacity:.6}50%{opacity:1}}
+.flow-line{stroke-dasharray:6 6;animation:flowStream 2.5s linear infinite}
+.pulse-badge{animation:pulseDot 2s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.flow-line,.pulse-badge{animation:none}}
 </style>
-<rect width="1200" height="300" rx="11" fill="url(#bg)"/><rect width="1200" height="300" rx="11" fill="url(#grid)"/>
-<rect x="1" y="1" width="1198" height="298" rx="10" fill="none" stroke="#44605A"/>
-<rect x="1" y="1" width="1198" height="37" rx="10" fill="#253233"/><path d="M0 38H1200" stroke="#405B56"/>
-<circle cx="23" cy="19" r="4" fill="#DDA269"/><circle cx="39" cy="19" r="4" fill="#80A79B"/><circle cx="55" cy="19" r="4" fill="#597A74"/>
-<text x="77" y="25" fill="#AFC7B9" font-family="Consolas,monospace" font-size="13">eventease / system-overview</text>
-<text x="1175" y="25" fill="#859F97" text-anchor="end" font-family="Consolas,monospace" font-size="12">LIVE DEPLOYMENT  /  FIREBASE</text>
+<rect width="1200" height="310" rx="11" fill="url(#bg)"/><rect width="1200" height="310" rx="11" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="308" rx="10" fill="none" stroke="#232738"/>
+<rect x="1" y="1" width="1198" height="37" rx="10" fill="#131722"/><path d="M0 38H1200" stroke="#232738"/>
+<circle cx="23" cy="19" r="4.5" fill="#ef233c"/><circle cx="40" cy="19" r="4.5" fill="#f97316"/><circle cx="57" cy="19" r="4.5" fill="#38bdf8"/>
+<text x="80" y="25" fill="#38bdf8" font-family="Consolas,monospace" font-size="13" font-weight="bold">[LIVE SYSTEM]: EVENTEASE MANAGEMENT APP</text>
+<text x="1175" y="25" fill="#94a3b8" text-anchor="end" font-family="Consolas,monospace" font-size="12">PRODUCTION &bull; FIREBASE CLOUD</text>
 
 <!-- Left Details Column -->
 <g>
-  <text x="35" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="750" letter-spacing="-1" fill="#EFE9DB">EventEase</text>
-  <text x="37" y="114" font-family="Consolas,monospace" font-size="13.5" fill="#C5A37E">cloud event management system</text>
-  <path d="M38 132H385" stroke="#567069" stroke-width="1"/>
-  <text x="38" y="160" font-family="Consolas,monospace" font-size="13" fill="#B8CBC1">• secure auth &amp; user role verification</text>
-  <text x="38" y="186" font-family="Consolas,monospace" font-size="13" fill="#B8CBC1">• real-time database schedule sync</text>
-  <text x="38" y="212" font-family="Consolas,monospace" font-size="13" fill="#B8CBC1">• dynamic responsive attendee UI</text>
-  <rect x="38" y="234" width="343" height="3" fill="#3A5651"/><rect x="38" y="234" width="128" height="3" fill="#C28C62"/>
-  <text x="38" y="268" font-family="Consolas,monospace" font-size="11.5" letter-spacing="1.2" fill="#8AA59B">PRODUCTION HOSTING</text>
-  <text x="210" y="268" font-family="Consolas,monospace" font-size="11.5" fill="#DDA269">eventeasemnt.web.app</text>
+  <rect x="35" y="58" width="120" height="18" rx="3" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1"/>
+  <text x="95" y="71" text-anchor="middle" font-family="Consolas,monospace" font-size="10.5" font-weight="bold" fill="#38bdf8">FLAGSHIP WEB APP</text>
+
+  <text x="35" y="112" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="800" letter-spacing="-1" fill="#f8fafc">EventEase</text>
+  <text x="37" y="136" font-family="Consolas,monospace" font-size="13.5" fill="#38bdf8">cloud event management &amp; scheduling</text>
+  <path d="M38 152H385" stroke="#232738" stroke-width="1.5"/>
+
+  <text x="38" y="178" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Secure authentication &amp; session verification</text>
+  <text x="38" y="202" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Real-time Firestore live schedule sync</text>
+  <text x="38" y="226" font-family="Consolas,monospace" font-size="12.5" fill="#cbd5e1">&bull; Dynamic calendar &amp; responsive attendee UI</text>
+
+  <rect x="38" y="248" width="343" height="3" fill="#1e2433"/><rect x="38" y="248" width="150" height="3" fill="url(#cyan-stream)"/>
+  <text x="38" y="280" font-family="Consolas,monospace" font-size="11" letter-spacing="1.2" fill="#64748b">DEPLOYED WEB APP</text>
+  <text x="180" y="280" font-family="Consolas,monospace" font-size="11.5" font-weight="bold" fill="#38bdf8">eventeasemnt.web.app</text>
 </g>
 
 <!-- Right Architecture Schematic -->
 <g>
-  <rect x="420" y="56" width="755" height="224" rx="8" fill="#192323" stroke="#4B6961" stroke-width="1.3"/>
-  <text x="440" y="78" font-family="Consolas,monospace" font-size="11.5" fill="#91BBAB">DATA PIPELINE / CLIENT TO REALTIME FIREBASE</text>
-  <text x="1155" y="78" text-anchor="end" font-family="Consolas,monospace" font-size="10.5" fill="#D2A678">REAL-TIME SYNC: ACTIVE</text>
+  <rect x="420" y="56" width="755" height="234" rx="8" fill="#0d1017" stroke="#232738" stroke-width="1.3"/>
+  <text x="440" y="78" font-family="Consolas,monospace" font-size="11.5" font-weight="bold" fill="#38bdf8">ARCHITECTURE / CLIENT-TO-FIRESTORE REAL-TIME LOOP</text>
+  <text x="1155" y="78" text-anchor="end" font-family="Consolas,monospace" font-size="10.5" fill="#10b981">LATENCY: &lt;50ms // LIVE</text>
 
-  <!-- Node 1: Client Front-End -->
-  <rect x="445" y="105" width="195" height="145" rx="6" fill="#131B1C" stroke="#3D5954"/>
-  <rect x="445" y="105" width="195" height="26" rx="6" fill="#202D2E"/>
-  <text x="457" y="123" font-family="Consolas,monospace" font-size="11" fill="#A4C4B8">CLIENT BROWSER</text>
-  <text x="457" y="156" font-family="Segoe UI,sans-serif" font-size="14" font-weight="bold" fill="#F0E8DC">EventEase App</text>
-  <text x="457" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">Vanilla JS / DOM</text>
-  <text x="457" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">Dynamic Schedules</text>
-  <text x="457" y="230" font-family="Consolas,monospace" font-size="10.5" fill="#66877F">Status: Connected</text>
+  <!-- Step 1: Client Browser -->
+  <rect x="445" y="105" width="195" height="155" rx="6" fill="#121622" stroke="#232738"/>
+  <rect x="445" y="105" width="195" height="26" rx="6" fill="#181e2e"/>
+  <text x="457" y="123" font-family="Consolas,monospace" font-size="11" font-weight="bold" fill="#38bdf8">CLIENT BROWSER</text>
+  <text x="457" y="156" font-family="Segoe UI,sans-serif" font-size="14.5" font-weight="bold" fill="#f8fafc">EventEase UI</text>
+  <text x="457" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Vanilla JavaScript</text>
+  <text x="457" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Dynamic Calendar</text>
+  <text x="457" y="220" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">DOM State Listeners</text>
+  <text x="457" y="246" font-family="Consolas,monospace" font-size="10" fill="#10b981">&bull; Authenticated Session</text>
 
-  <!-- Connecting Stream 1 to 2 -->
-  <line x1="640" y1="177" x2="725" y2="177" stroke="#DDA269" stroke-width="2" class="flow-line"/>
-  <polygon points="725,173 733,177 725,181" fill="#DDA269"/>
+  <!-- Stream 1 to 2 -->
+  <line x1="640" y1="182" x2="725" y2="182" stroke="#38bdf8" stroke-width="2" class="flow-line"/>
+  <polygon points="725,178 733,182 725,186" fill="#38bdf8"/>
 
-  <!-- Node 2: Logic & Auth Layer -->
-  <rect x="733" y="105" width="195" height="145" rx="6" fill="#131B1C" stroke="#3D5954"/>
-  <rect x="733" y="105" width="195" height="26" rx="6" fill="#202D2E"/>
-  <text x="745" y="123" font-family="Consolas,monospace" font-size="11" fill="#A4C4B8">LOGIC &amp; AUTH</text>
-  <text x="745" y="156" font-family="Segoe UI,sans-serif" font-size="14" font-weight="bold" fill="#F0E8DC">State Controller</text>
-  <text x="745" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#DDA269">Firebase Auth SDK</text>
-  <text x="745" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">Session &amp; Token Auth</text>
-  <text x="745" y="230" font-family="Consolas,monospace" font-size="10.5" fill="#7FA99B">Role: Authenticated</text>
+  <!-- Step 2: Auth & Logic Controller -->
+  <rect x="733" y="105" width="195" height="155" rx="6" fill="#121622" stroke="#232738"/>
+  <rect x="733" y="105" width="195" height="26" rx="6" fill="#181e2e"/>
+  <text x="745" y="123" font-family="Consolas,monospace" font-size="11" font-weight="bold" fill="#818cf8">AUTH &amp; SECURITY</text>
+  <text x="745" y="156" font-family="Segoe UI,sans-serif" font-size="14.5" font-weight="bold" fill="#f8fafc">Firebase Auth</text>
+  <text x="745" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#38bdf8">Token Validation</text>
+  <text x="745" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Role Verification</text>
+  <text x="745" y="220" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Session Persistence</text>
+  <text x="745" y="246" font-family="Consolas,monospace" font-size="10" fill="#818cf8">&bull; Multi-Role Guard</text>
 
-  <!-- Connecting Stream 2 to 3 -->
-  <line x1="928" y1="177" x2="965" y2="177" stroke="#7FB9A7" stroke-width="2" class="flow-line"/>
-  <polygon points="965,173 973,177 965,181" fill="#7FB9A7"/>
+  <!-- Stream 2 to 3 -->
+  <line x1="928" y1="182" x2="965" y2="182" stroke="#6366f1" stroke-width="2" class="flow-line"/>
+  <polygon points="965,178 973,182 965,186" fill="#6366f1"/>
 
-  <!-- Node 3: Cloud Database -->
-  <rect x="973" y="105" width="180" height="145" rx="6" fill="#131B1C" stroke="#3D5954"/>
-  <rect x="973" y="105" width="180" height="26" rx="6" fill="#202D2E"/>
-  <text x="985" y="123" font-family="Consolas,monospace" font-size="11" fill="#A4C4B8">CLOUD DATABASE</text>
-  <text x="985" y="156" font-family="Segoe UI,sans-serif" font-size="14" font-weight="bold" fill="#F0E8DC">Firestore DB</text>
-  <text x="985" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">Real-time Listeners</text>
-  <text x="985" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#8AA59D">Snapshot Sync</text>
-  <text x="985" y="230" font-family="Consolas,monospace" font-size="10.5" fill="#DDA269">Latency: &lt;50ms</text>
+  <!-- Step 3: Cloud Database -->
+  <rect x="973" y="105" width="180" height="155" rx="6" fill="#121622" stroke="#232738"/>
+  <rect x="973" y="105" width="180" height="26" rx="6" fill="#181e2e"/>
+  <text x="985" y="123" font-family="Consolas,monospace" font-size="11" font-weight="bold" fill="#f97316">DATABASE ENGINE</text>
+  <text x="985" y="156" font-family="Segoe UI,sans-serif" font-size="14.5" font-weight="bold" fill="#f8fafc">Cloud Firestore</text>
+  <text x="985" y="180" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Live Event Sync</text>
+  <text x="985" y="200" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Booking Queries</text>
+  <text x="985" y="220" font-family="Consolas,monospace" font-size="11.5" fill="#94a3b8">Snapshot Delta</text>
+  <text x="985" y="246" font-family="Consolas,monospace" font-size="10" fill="#38bdf8">&bull; Zero Delay Push</text>
 </g>
 </svg>
